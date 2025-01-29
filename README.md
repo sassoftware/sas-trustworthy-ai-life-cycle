@@ -56,7 +56,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details about submitting cont
 ## License
 Materials in this repository are licensed under the [Apache 2.0 License](LICENSE).
 Materials in the `/website/docs` folder are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
-For more information, see the [license](website/docs/LICENSE.md) in the /website/docs` folder.
+For more information, see the [license](website/docs/LICENSE.md) in the `/website/docs` folder.
 
 ## Additional Resources
 
