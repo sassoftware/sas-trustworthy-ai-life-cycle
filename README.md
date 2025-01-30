@@ -37,7 +37,7 @@ Though titles can differ from one organization to another, the process requires 
 * **domain expert** who can address business and domain-specific questions. 
 
 > [!NOTE]
-> Any other organizational roles associated with modeling could provide valuable contributions as well.
+> Any other organizational roles that are associated with modeling could also provide valuable contributions.
 
 Users should be generally familiar with these model management steps:
 
