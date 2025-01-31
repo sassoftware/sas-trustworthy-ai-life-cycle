@@ -11,9 +11,8 @@ Identify the **model owner**.
 The model owner is the project lead and manages the entire process. They review and approve the work of the other stakeholders and are held accountable for ethical considerations during all stages of the AI life cycle. The model owner understands the use case and makes the final decision about the model's usage.
 This role aligns with the NIST AI RMF Playbook guidelines in Measure [2.8](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Measure#Measure%202.8).
 
-> Model owner:
-> > </br>
-> Model owner contact information:
+> Model owner & contact information:
+> </br>
 
 
 ## 1.2 Identify stakeholders
@@ -21,10 +20,7 @@ This role aligns with the NIST AI RMF Playbook guidelines in Measure [2.8](https
 
 Identify the **model developer**. The model developer is the data scientist who develops the model.
 
-> Model developer(s):
-> </br>
-> </br>
-> Model developer(s) contact information:
+> Model developer(s) & contact information:
 > </br>
 > </br>
 
