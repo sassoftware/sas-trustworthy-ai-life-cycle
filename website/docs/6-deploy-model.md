@@ -17,24 +17,24 @@ Did the model deploymnet pass the deployment validation test?
 * [ ] No
 
 If applicable, add any additional details and reassign to resolve issues:
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
 
 ### 6.1.3 Incorporate model into existing processes
 **Model engineer**: Incorporate the model in your organization's existing processes.
 Provide any relevant notes about the incorporation of the model into existing processes.
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
 
