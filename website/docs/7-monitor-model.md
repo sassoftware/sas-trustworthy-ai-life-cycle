@@ -40,7 +40,7 @@ The model no longer meets predetermined thresholds. What are the next steps?
 * [ ] Fine tune the models with existing data. If selected, return to step 4. 
 * [ ] Set a new champion model. If selected, please return to step 5. 
 * [ ] Update the project documentation, if selected, please return to step 2. 
-* [ ] End the workflow. If selected, please depreciate the project abd update step 2.1.1. 
+* [ ] End the workflow. If selected, please depreciate the project and update step 2.1.1. 
 * [ ] Move forward with the model. If selected, please continue with step 7.1.2.
 
 > </br>
