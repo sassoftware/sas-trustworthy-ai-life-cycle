@@ -33,8 +33,8 @@ Train and assess a set of models to help find the best model for production.
 ### 4.3.1 Model needs bias evaluation?
 **Model developer**: Does the model require bias evaluation, based on the implications for the use of the AI system, among other factors?
 
-* [ ] Yes. If selected, move to step 4.3.2.
-* [ ] No. If selected, move to step 4.3.4.
+* [ ] Yes. If selected, continue to the next step.
+* [ ] No. If selected, move to step [4.3.4](#4.3.4-Bias-metrics-differences-approval).
 
 If applicable, add any additional details:
 > </br>
@@ -48,9 +48,7 @@ If applicable, add any additional details:
 
 ### 4.3.2 Compare and document subgroup model performance
 **Model developer**: Calculate and compare model performance values and additional fairness metrics for each protected class or subgroup.
-To calculate model performance values, use model performance metrics defined by your organization in the testing strategy outlined in step 2.1.6.
-Fairness metrics might include equal opportunity, demographic parity, predictive parity, equal accuracy, or equalized odds. Subgroups are often protected classes.
-However, they could be important groups within the data based on the model use case, even though they are not legally defined as protected classes.
+To calculate model performance values, use model performance metrics defined by your organization in the testing strategy outlined in [step 2.1.6]((2-document-project.md). Fairness metrics might include equal opportunity, demographic parity, predictive parity, equal accuracy, or equalized odds. Subgroups are often protected classes. However, they could be important groups within the data based on the model use case, even though they are not legally defined as protected classes.
 
 Document or save results. 
 > </br>
@@ -77,7 +75,7 @@ Document or save results.
 > </br>
 > </br>
 
-### 4.3.4 Bias metrics differences satisfactory?
+### 4.3.4 Bias metrics differences approval
 **Model owner**: Is the documentation provided by the model developer satisfactor? If bias evaluation is required, are the differences in bias metric values satisfactory?
 
 * [ ] Yes
@@ -85,11 +83,12 @@ Document or save results.
 
 If no, which areas need additional review?
 
-* [ ] Retrain models with new data. If selected, please return to step 3.
-* [ ] Fine tune the models with existing data. If selected, return to top of step 4.
-* [ ] Update the project documentation, if selected, please return to step 2.
-* [ ] End the workflow. If selected, please depreciate the project and update step 2.1.1.
-* [ ]  Move forward with the model. If selected, please continue and provide additional details or justification below.
+* [ ]  Retrain models with new data. If selected, please return to [step 3](3-prepare-and-assess-data.md).
+* [ ]  Fine tune the models with existing data. If selected, return to [step 4](4-train-model.md).
+* [ ]  Set a new champion model. If selected, please return to [step 5](5-test-model.md).
+* [ ]  Update the project documentation, if selected, please return to [step 2](2-document-project.md). 
+* [ ]  End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md). 
+* [ ]  Move forward with the model. If selected, please continue with step 6 and provide additional details or justification below.
 
 > </br>
 > </br>
@@ -108,8 +107,8 @@ An explainable model allows human users to comprehend and trust the results of t
 
 Is explainability important for this use case?
 
-* [ ] Yes. If selected, move to step 4.4.2. 
-* [ ] No. If selected, move to step 4.4.3. 
+* [ ] Yes. If selected, continue to the next step. 
+* [ ] No. If selected, move to step [4.4.3](#4.4.3-Model-explanations-approval). 
 
 If applicable, add any additional details:
 > </br>
@@ -136,7 +135,7 @@ Document or save results.
 > </br>
 > </br>
 
-### 4.4.3 Model explanations satisfactory?
+### 4.4.3 Model explanations approval
 **Model owner**: Is the documentation provided by the model developer satisfactor? If explanability is required, are the models' level of explainability acceptable?
 
 * [ ] Yes
@@ -144,12 +143,12 @@ Document or save results.
 
 If no, which areas need additional review?
 
-* [ ] Retrain models with new data. If selected, please return to step 3.
-* [ ] Fine tune the models with existing data. If selected, return to top of step 4.
-* [ ] Update the project documentation, if selected, please return to step 2.
-* [ ] End the workflow. If selected, please depreciate the project and update step 2.1.1.
-* [ ]  Move forward with the model. If selected, please continue and provide additional details or justification below.
-
+* [ ]  Retrain models with new data. If selected, please return to [step 3](3-prepare-and-assess-data.md).
+* [ ]  Fine tune the models with existing data. If selected, return to [step 4](4-train-model.md).
+* [ ]  Set a new champion model. If selected, please return to [step 5](5-test-model.md).
+* [ ]  Update the project documentation, if selected, please return to [step 2](2-document-project.md). 
+* [ ]  End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md). 
+* [ ]  Move forward with the model. If selected, please continue with step 6 and provide additional details or justification below.
 > </br>
 > </br>
 > </br>
