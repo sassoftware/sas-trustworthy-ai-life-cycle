@@ -36,7 +36,8 @@ If at any time, the KPIs fail to meet one of the predetermined thresholds, choos
 
 The model no longer meets predetermined thresholds. What are the next steps?
 
-* [ ] Retrain models with new data. If selected, please return to step 3. 
+* [ ] Retrain models with new data. If selected, please return to step 3.
+* [ ] Fine tune the models with existing data. If selected, return to step 4. 
 * [ ] Set a new champion model. If selected, please return to step 5. 
 * [ ] Update the project documentation, if selected, please return to step 2. 
 * [ ] End the workflow. If selected, please depreciate the project. 
