@@ -26,12 +26,12 @@ This workflow can help users orchestrate trustworthy model creation and manageme
 > Although the [Trustworthy AI Life Cycle sample workflow](https://github.com/sassoftware/model-management-resources/tree/main/samples/Workflow_Integration/Trustworthy_AI_Life_Cycle) does not mirror this life cycle document in every respect, improvements to this document can result in enhancement requests for the Trustworthy AI Life Cycle sample workflow.
 
 ## Getting Started
-The Trustworthy AI Life Cycle is designed for teams who collaborate to create, test, and implement models.
+The Trustworthy AI Life Cycle is designed for organizations who collaborate to create, test, and implement models. Across these organizations, we identified  six personas holding those important insights.  At some organizations, these personas may be six different individuals, or even six different teams. At other organizations, one or two people may take on these roles, but we start by identifying who holds these responsibilities for the project. 
 Though titles can differ from one organization to another, the process requires input from the following roles:
 
 * **model owner** who is the decision-maker
 * **data scientist** who develops the model
-* **engineer** familiar with deployment
+* **engineer** who deploys the model t
 * **risk owner** who identifies, manages, and documents risks associated with the model
 * **data engineer** who selects and prepares data for the model
 * **domain expert** who can address business and domain-specific questions. 
