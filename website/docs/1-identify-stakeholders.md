@@ -12,6 +12,8 @@ The model owner is the project lead and manages the entire process. They review 
 This role aligns with the NIST AI RMF Playbook guidelines in Measure [2.8](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Measure#Measure%202.8).
 
 > Model owner:
+> /br>
+
 > Model owner contact information:
 
 
