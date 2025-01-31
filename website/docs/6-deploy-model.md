@@ -7,7 +7,7 @@ Deploying models allows them to be incorporated within an organization's technic
 
 ## 6.1 Deploy & productionalize model
 ### 6.1.1 Deploy chamption model
-**Model engineer**: Deploy champion model into production as outlined in step 2.3.2. 
+**Model engineer**: Deploy champion model into production as outlined in [step 2.3.2]((2-document-project.md)). 
 
 * [ ] Completed
 * [ ] Not Completed
