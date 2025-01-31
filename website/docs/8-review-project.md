@@ -17,7 +17,7 @@ Please review the model project and ensure that everything is still satisfactory
 * [ ] Identify stakeholders. If selected, please return to step 1. 
 * [ ] Document the project. If selected, please return to step 2. 
 * [ ] Modify or update data. If selected, please return to step 3. 
-* [ ] Re-evaluate models. If selected, please return to step 4.
+* [ ] Re-evaluate models. If selected, please return to step 5.
 * [ ] End the workflow. If selected, please depreciate the project abd update step 2.1.1. 
 * [ ] Move forward with the model. If selected, please continue with step 8.1.1.
 
