@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 
 # 2. Document project
-The following documentation helps define the project in a centralized documentation. 
+The following documentation helps define the project in a centralized location. 
 
 ## 2.1 Model owner prepares documentation
 
