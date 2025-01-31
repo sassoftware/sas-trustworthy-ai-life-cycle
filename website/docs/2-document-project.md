@@ -7,7 +7,25 @@ The following documentation helps define the project in a centralized location.
 
 ## 2.1 Model owner prepares documentation
 
-### 2.1.1 Document purpose and usage
+### 2.1.1 Document curent state of the project
+**Model owner**: Document the current state of the project. 
+
+* [ ] Not started
+* [ ] In progress
+* [ ] In production
+* [ ] Depreciated or archived
+
+If applicable, add any additional details: 
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+
+### 2.1.2 Document purpose and usage
 **Model owner**: Document the purpose of the modeling project, including model usage, scope, assumptions, limitations, and potential benefits and harms in accordance with the *NIST AI RMF Playbook* guidelines in Map [1.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.1), [3.2](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.2), and [3.3](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.3).
 
 > </br>
@@ -19,7 +37,7 @@ The following documentation helps define the project in a centralized location.
 > </br>
 > </br>
 
-### 2.1.2 Document end users
+### 2.1.3 Document end users
 **Model owner**: Document end users and their expected usage in accordance with the *NIST AI RMF Playbook* guidelines in Map [1.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.1).
 
 > </br>
@@ -31,7 +49,7 @@ The following documentation helps define the project in a centralized location.
 > </br>
 > </br>
 
-### 2.1.3 Document baseline metrics
+### 2.1.4 Document baseline metrics
 **Model owner**: Document the baseline metrics or processes used to measure the success of the current decisioning system.
 A decisioning system can be a model, a database, or a process of communication and knowledge sharing.
 Consult the *NIST AI RMF Playbook* guidelines in Map [3.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.1).
@@ -45,7 +63,7 @@ Consult the *NIST AI RMF Playbook* guidelines in Map [3.1](https://airc.nist.gov
 > </br>
 > </br>
 
-### 2.1.4 Document feedback strategy
+### 2.1.5 Document feedback strategy
 **Model owner**: Document the feedback strategy.
 The strategy should outline how users of the AI system will provide feedback to developers and deployers of the AI system in accordance to the *NIST AI RMF Playbook* guidelines in Map [5.2](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%205.2).
 
@@ -58,7 +76,7 @@ The strategy should outline how users of the AI system will provide feedback to 
 > </br>
 > </br>
 
-### 2.1.5 Document performance metrics
+### 2.1.6 Document performance metrics
 **Model owner**: Document preferred performance metrics, including fit statistics.
 Fit statistics are statistical values that assess how well a model fits a set of data.
 Metrics are used to evaluate model performance.
@@ -72,7 +90,7 @@ Metrics are used to evaluate model performance.
 > </br>
 > </br>
 
-### 2.1.6 Approve documentation?
+### 2.1.7 Approve documentation?
 **Model owner**: Review and confirm your documentation.
 
 Did you provide all necessary documentation?
