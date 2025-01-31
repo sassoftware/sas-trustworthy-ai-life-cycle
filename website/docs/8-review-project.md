@@ -12,7 +12,8 @@ sidebar_position: 9
 Review your documentation from the model development and deployment process.
 Based on your evaluation, consider the following:
 
-Please review the model project and ensure that everything is still satisfactory. Are there areas that need further attention?
+Please review the model project and ensure that everything is still satisfactory.
+Do any areas need additional attention?
 
 * [ ] Identify stakeholders. If selected, please return to [step 1](1-identify-stakeholders.md). 
 * [ ] Document the project. If selected, please return to [step 2](2-document-project.md). 
@@ -30,9 +31,3 @@ If applicable, add any additional details:
 > </br>
 > </br>
 > </br>
-
-
-
-
-
-
