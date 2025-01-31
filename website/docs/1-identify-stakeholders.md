@@ -12,6 +12,7 @@ The model owner is the project lead and manages the entire process. They review 
 This role aligns with the NIST AI RMF Playbook guidelines in Measure [2.8](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Measure#Measure%202.8).
 
 > Model owner:
+> Model owner contact information:
 
 
 ## 1.2 Identify stakeholders
@@ -19,22 +20,37 @@ This role aligns with the NIST AI RMF Playbook guidelines in Measure [2.8](https
 
 Identify the **model developer**. The model developer is the data scientist who develops the model.
 
-> Model developer:
+> Model developer(s):
+> </br>
+> Model developer(s) contact information:
+> </br>
 
 Identify the **model engineer**. The model engineer is responsible for deploying the model.
 
-> Model engineer:
+> Model engineer(s):
+> </br>
+> Model engineer(s) contact information:
+> </br>
 
 Identify the **model risk owner**. The model risk owner identifies, manages, and documents model risks.
 
-> Model risk owner:
+> Model risk owner(s):
+> </br>
+> Model risk owner(s) contact information:
+> </br>
 
 Identify the **data engineer**. The data engineer compiles and prepares the data for modeling.
 
-> Data engineer:
+> Data engineer(s):
+> </br>
+> Data engineer(s) contact information:
+> </br>
 
 Identify the **domain expert**. The domain expert is available to address business and domain questions.
 
-> Domain expert:
+> Domain expert(s):
+> </br>
+> Domain expertr(s) contact information:
+> </br>
 
 
