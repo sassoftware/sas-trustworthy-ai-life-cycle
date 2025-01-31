@@ -28,7 +28,7 @@ If applicable, add any additional details:
 Are individuals represented in the data or affected by the use case?
 
 * [ ] Yes. If selected, continue to next step. 
-* [ ] No. If selected, move to step 3.5. 
+* [ ] No. If selected, move to [step 3.5](### 3.5-Approve-data). 
 
 If yes, please provide additional information.
 
@@ -52,7 +52,7 @@ PII is any information connected to a specific individual that could be used to 
 Does the data contain Personally Identifiable Information (PII)?
 
 * [ ] Yes. If selected, continue to next step. 
-* [ ] No. If selected, move to 3.3.5.
+* [ ] No. If selected, move to [step 3.3.5](#3.3.5-Data-privacy-risk-approval).
 
 If yes, please provide additional information. 
 
@@ -70,7 +70,7 @@ If yes, please provide additional information.
 
 Does this use case require that Personally Identifiable Information (PII) be included in the data?
 
-* [ ] Yes. If yes, move to step 3.3.4.
+* [ ] Yes. If yes, move to [step 3.3.4](#3.3.4-Document-variables-and-risks).
 * [ ] No. If no, continue to next step. 
 
 If applicable, please provide additional information. 
@@ -109,13 +109,13 @@ Describe the steps taken to remove PII or mask the data.
 > </br>
 > </br>
 
-### 3.3.5 Approve data privacy risks?
+### 3.3.5 Data privacy risk approval
 **Model owner**: Do you approve the assessment and documentation of privacy risks?
 
 * [ ] Yes
 * [ ] No
 
-If no, please justify your response and reassign section 3 for completion.
+If no, please justify your response and reassign step 3 for completion.
 
 > </br>
 > </br>
@@ -146,7 +146,7 @@ Proxy variables are not themselves protected classes but are statistically relat
 Does the data include information relating to protected classes or proxy variables for protected classes?
 
 * [ ] Yes. If selected, continue to the next step. 
-* [ ] No. If selected, move to step 3.4.7. 
+* [ ] No. If selected, move to [step 3.4.7](#3.4.7-Data-representative-of-population). 
 
 ### 3.4.3 Are variables inputs to model?
 **Model developer**: Indicate whether the model variable includes information about protected classes or proxy variables for protected classes. If so, document the protected class or proxy variables that are to be included in the model.
@@ -157,13 +157,13 @@ Proxy variables are not themselves protected classes but are statistically relat
 Does the model variables include information relating to protected classes or proxy variables for protected classes?
 
 * [ ] Yes. If selected, continue to the next step. 
-* [ ] No. If selected, move to step 3.4.7. 
+* [ ] No. If selected, move to [step 3.4.7](#3.4.7-Data-representative-of-population).  
 
 ### 3.4.4 Protected classes or proxy variables required?
 **Model developer**: Are protected classes or proxy variables included in the model required, given the use case or model performance?
 
 * [ ] Yes. If selected, document why these variables are required and continue to next step.
-* [ ] No. If selected, move to step 3.4.6. 
+* [ ] No. If selected, move to [step 3.4.6](#3.4.6-Remove-variables-from-model). 
 
 If applicable, add any additional details:
 > </br>
@@ -203,13 +203,13 @@ If applicable, add any additional details:
 > </br>
 > </br>
 
-### 3.4.7 Data representative of population?
+### 3.4.7 Data representative of population
 **Model developer or data engineer**: Indicate whether the data represents the population to which the model will be applied.
 Representativeness indicates whether the individuals present in the data mirror the intended population and reflect all essential properties of the population in an accurate way.In other words, a data set or sample is representative if all the elements in a population have the same chance to be part of the sample on which data was collected.
 
 Does the data represent the population to which the model will be applied?
 
-* [ ] Yes. If selected, provide evidence below the data is representative and move to step 3.4.13. 
+* [ ] Yes. If selected, provide evidence below the data is representative and move to [step 3.4.13](#3.4.13-Data-bias-approval). 
 * [ ] No. If selected, contine to next step. 
 
 If applicable, add any additional details:
@@ -227,7 +227,7 @@ If applicable, add any additional details:
 
 Is representative data available?
 
-* [ ] Yes. If selected, move to step 3.4.12. 
+* [ ] Yes. If selected, move to [step 3.4.12](#3.4.12-Use-representative-data). 
 * [ ] No. If selected, continue to next step. 
 
 ### 3.4.9 Alternative strategies exist?
@@ -236,7 +236,7 @@ If so, document those strategies and implement them.
 
 Do alternative strategies exist?
 
-* [ ] Yes. If selected, move to step 3.4.12. 
+* [ ] Yes. If selected, move to [step 3.4.12](#3.4.12-Use-representative-data). 
 * [ ] No. If selected, contine to next step. 
 
 
@@ -254,8 +254,8 @@ Do alternative strategies exist?
 
 What should be done about the nonexistent alternative strategies?
 
-* [ ] End the workflow. If selected, please depreciate the project abd update step 2.1.1.
-* [ ] Modify or update data. If selected, return to step 3.1.
+* [ ] End the workflow. If selected, please depreciate the project abd update [step 2.1.1](2-document-project.md).
+* [ ] Modify or update data. If selected, return to [step 3.1](#3.1-Collect-and-prepare-analytical-base-table).
 * [ ] Move forward with the data.If selected, contine to next step. 
 
 ### 3.4.11 Justify moving forward
@@ -270,9 +270,9 @@ What should be done about the nonexistent alternative strategies?
 > </br>
 > </br>
 
-Move to step 3.4.13.
+Move to [step 3.4.13](#3.4.13-Data-bias-approval).
 
-### 3.4.12. Use representative data
+### 3.4.12 Use representative data
 **Model developer or data engineer**: Use identified available representative data.
 
 * [ ] Completed
@@ -289,13 +289,13 @@ If applicable, add any additional details:
 > </br> 
 > </br> 
 
-### 3.4.13 Approve data bias?
+### 3.4.13 Data bias approval
 **Model owner**: Do you approve the assessment and documentation of bias risks?
 
 * [ ] Yes
 * [ ] No
 
-If no, please justify your response and reassign section 3 for completion.
+If no, please justify your response and reassign step 3 for completion.
 
 > </br>
 > </br>
@@ -303,13 +303,13 @@ If no, please justify your response and reassign section 3 for completion.
 > </br>
 </br>
 
-## 3.5 Approve data for use?
+## 3.5 Approve data
 **Model owner**: Is the quality of the data acceptable? Has the data been appropriately cleaned? Does a review suggest data should be approved for use?
 
 * [ ] Yes
 * [ ] No
 
-If no, please justify your response and reassign section 3 for completion.
+If no, please justify your response and reassign step 3 for completion.
 
 > </br>
 > </br>
