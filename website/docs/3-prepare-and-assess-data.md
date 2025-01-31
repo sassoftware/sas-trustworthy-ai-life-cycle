@@ -209,10 +209,20 @@ Representativeness indicates whether the individuals present in the data mirror 
 
 Does the data represent the population to which the model will be applied?
 
-* [ ] Yes. If selected, continue to move to step XXX> 
+* [ ] Yes. If selected, provide evidence below the data is representative and move to step 3.4.13. 
 * [ ] No. If selected, contine to next step. 
 
-#### 3.4.8 Representative data available?
+If applicable, add any additional details:
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+
+### 3.4.8 Representative data available?
 **Model developer or data engineer**: If there is evidence that the data used to train the model is not representative, indicate whether representative data is available.
 
 Is representative data available?
@@ -279,7 +289,7 @@ If applicable, add any additional details:
 > </br> 
 > </br> 
 
-#### 3.4.13 Approve data bias?
+### 3.4.13 Approve data bias?
 **Model owner**: Do you approve the assessment and documentation of bias risks?
 
 * [ ] Yes
