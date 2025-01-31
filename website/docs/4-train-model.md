@@ -80,7 +80,7 @@ Document or save results.
 ### 4.3.4 Bias metrics differences satisfactory?
 **Model owner**: Is the documentation provided by the model developer satisfactor? If bias evaluation is required, are the differences in bias metric values satisfactory?
 
-* [ ] Yes. 
+* [ ] Yes
 * [ ] No
 
 If no, which areas need additional review?
