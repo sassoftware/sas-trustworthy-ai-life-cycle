@@ -1,18 +1,22 @@
 ---
-sidebar_position: 5
+sidebar_position: 3
 ---
 
-# 3. Document project
+# 1. Document project
+The following documentation helps define the project in a centralized documentation. 
 
-## 3.1 Model owner prepares documentation
+## 1.1 Model owner prepares documentation
 
-### 3.1.1 Document purpose and usage
+### 1.1.1 Document purpose and usage
 **Model owner**: Document the purpose of the modeling project, including model usage, scope, assumptions, limitations, and potential benefits and harms in accordance with the *NIST AI RMF Playbook* guidelines in Map [1.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.1), [3.2](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.2), and [3.3](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.3).
 
-### 3.1.2 Document end users
+> </br>
+> </br>
+
+### 1.1.2 Document end users
 **Model owner**: Document end users and their expected usage in accordance with the *NIST AI RMF Playbook* guidelines in Map [1.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.1).
 
-### 3.1.3 Document baseline metrics
+### 1.1.3 Document baseline metrics
 **Model owner**: Document the baseline metrics or processes used to measure the success of the current decisioning system.
 A decisioning system can be a model, a database, or a process of communication and knowledge sharing.
 Consult the *NIST AI RMF Playbook* guidelines in Map [3.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.1).
