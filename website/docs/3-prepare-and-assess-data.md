@@ -163,7 +163,7 @@ Does the model variables include information relating to protected classes or pr
 **Model developer**: Are protected classes or proxy variables included in the model required, given the use case or model performance?
 
 * [ ] Yes. If selected, document why these variables are required and continue to next step.
-* [ ] No. If selected, mote to step 3.4.6. 
+* [ ] No. If selected, move to step 3.4.6. 
 
 If applicable, add any additional details:
 > </br>
