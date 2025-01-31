@@ -10,7 +10,7 @@ The SAS Trustworthy AI Life Cycle outlines steps for evaluating and deploying a 
 It aims to make the U.S. National Institute of Standards and Technology's (NIST) recommendations, standards, and best practices for [AI risk management](https://airc.nist.gov/AI_RMF_Knowledge_Base/AI_RMF) easier to adopt and follow.
 
 The life cycle helps organizational stakeholders specify individual roles and expectations, gather required documentation, and outline factors for consideration.
-As a result, teams can produce documentation to support the assertion that the organization has done its due diligence to provide evidence that the model is fair, and their processes do not cause harm.
+As a result, teams can produce documentation to support the assertion that the organization has done its due diligence to provide evidence that the model is fair and their processes do not cause harm.
 
 The SAS Trustworthy AI Life Cycle is a stepwise process organized into sections.
 Many tasks in the life cycle reflect guidelines put forth by the [NIST AI Risk Management Framework Playbook](https://www.nist.gov/itl/ai-risk-management-framework) as it appeared in October 2023.
@@ -26,18 +26,18 @@ This workflow can help users orchestrate trustworthy model creation and manageme
 > Although the [Trustworthy AI Life Cycle sample workflow](https://github.com/sassoftware/model-management-resources/tree/main/samples/Workflow_Integration/Trustworthy_AI_Life_Cycle) does not mirror this life cycle document in every respect, improvements to this document can result in enhancement requests for the Trustworthy AI Life Cycle sample workflow.
 
 ## Getting Started
-The Trustworthy AI Life Cycle is designed for use by teams who collaborate to create, test, and implement models.
-Though titles can differ, the process requires input from the following roles:
+The Trustworthy AI Life Cycle is designed for teams who collaborate to create, test, and implement models.
+Though titles can differ from one organization to another, the process requires input from the following roles:
 
-* model owner who is the decision-maker
-* data scientist who develops the model
-* engineer familiar with deployment
-* risk owner who identifies, manages and documents risks associated with the model
-* data engineer who selects and prepares data for the model
-* domain expert who can address business and domain-specific questions. 
+* **model owner** who is the decision-maker
+* **data scientist** who develops the model
+* **engineer** familiar with deployment
+* **risk owner** who identifies, manages, and documents risks associated with the model
+* **data engineer** who selects and prepares data for the model
+* **domain expert** who can address business and domain-specific questions. 
 
 > [!NOTE]
-> Any other roles tied to modeling supported within an organization could provide a valuable contribution as well.
+> Any other organizational roles that are associated with modeling could also provide valuable contributions.
 
 Users should be generally familiar with these model management steps:
 
@@ -56,7 +56,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details about submitting cont
 ## License
 Materials in this repository are licensed under the [Apache 2.0 License](LICENSE).
 Materials in the `/website/docs` folder are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
-For more information, see the [license](website/docs/LICENSE.md) in the /website/docs` folder.
+For more information, see the [license](website/docs/LICENSE.md) in the `/website/docs` folder.
 
 ## Additional Resources
 
