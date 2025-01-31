@@ -9,22 +9,54 @@ sidebar_position: 6
 > </br> 
 > </br> 
 
-Also note promisting challenger models. 
+Also note promosing challenger models. 
 > </br> 
 > </br> 
 > </br> 
 > </br> 
+</br>
 
 ## 5.2 Test model
 
 ### 5.2.1 Prepare test data
-**Data engineer**: Prepare the data to test the model against documented criteria from the testing strategy outlined in step 2.5.2.
+**Data engineer**: Prepare the data to test the model against documented criteria from the testing strategy outlined in step 2.5.2. 
+
+* [ ] Completed
+* [ ] Not Completed
+
+If applicable, add any additional details:
+
+> </br> 
+> </br> 
+> </br> 
+> </br> 
+> </br> 
+> </br> 
+> </br> 
+> </br> 
 
 ### 5.2.2 Run tests
 **Model developer**: Once the data engineer has prepared the test data, test the model according to the testing strategy defined in step 2.5.2.
 
+* [ ] Completed
+* [ ] Not Completed
+
+If applicable, add any additional details:
+
+> </br> 
+> </br> 
+> </br> 
+> </br> 
+> </br> 
+> </br> 
+> </br> 
+> </br> 
+
 ### 5.2.3 Document test steps
 **Model developer**: Document the steps that you took to test the model and note results.
+
+* [ ] Completed
+* [ ] Not Completed
 
 > </br> 
 > </br> 
@@ -40,7 +72,6 @@ Also note promisting challenger models.
 
 * [ ] Yes
 * [ ] No
-
 
 If no, which areas need additional review?
 
@@ -59,11 +90,10 @@ If no, which areas need additional review?
 > </br> 
 > </br> 
 > </br> 
+</br>
 
 ### 5.3 Model approved for production?
 **Model owner**: Is the model approved for production?
-
-Is the model approved for production?
 
 * [ ] Yes
 * [ ] No
