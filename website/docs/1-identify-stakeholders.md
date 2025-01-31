@@ -7,13 +7,13 @@ Before starting the Trustworthy AI Life Cycle, identify necessary contacts and a
 
 
 ## 1.1 Identify model owner
-Identify the **model owner**.
+Identify the **model owner** and provide their contact information.
 The model owner is the project lead and manages the entire process. They review and approve the work of the other stakeholders and are held accountable for ethical considerations during all stages of the AI life cycle. The model owner understands the use case and makes the final decision about the model's usage.
 This role aligns with the NIST AI RMF Playbook guidelines in Measure [2.8](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Measure#Measure%202.8).
 
-> Model owner & contact information:
 > </br>
-
+> </br>
+> </br>
 
 ## 1.2 Identify stakeholders
 **Model owner**: Identify relevant stakeholders.
