@@ -6,27 +6,27 @@ sidebar_position: 5
 Train and assess a set of models to help find the best model for production.
 ## 4.1 Train models
 **Model developer**: Train and fine-tune several models. Document a set of promising models. Note the location of the models and modeling assets:
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-</br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+<br></br>
 
 ## 4.2 Document model evaluation metrics
 **Model developer**: Document all fit statistics used for model evaluation. Note resulting values for promising models.
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-</br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+<br></br>
 
 ## 4.3 Assess model bias
 
@@ -34,46 +34,47 @@ Train and assess a set of models to help find the best model for production.
 **Model developer**: Does the model require bias evaluation, based on the implications for the use of the AI system, among other factors?
 
 * [ ] Yes. If selected, continue to the next step.
-* [ ] No. If selected, move to step [4.3.4](#4.3.4-Bias-metrics-differences-approval).
+* [ ] No. If selected, move to step [4.3.4](#434-bias-metrics-differences-approval).
 
 If applicable, add any additional details:
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
 
 ### 4.3.2 Compare and document subgroup model performance
 **Model developer**: Calculate and compare model performance values and additional fairness metrics for each protected class or subgroup.
-To calculate model performance values, use model performance metrics defined by your organization in the testing strategy outlined in [step 2.1.6]((2-document-project.md). Fairness metrics might include equal opportunity, demographic parity, predictive parity, equal accuracy, or equalized odds. Subgroups are often protected classes. However, they could be important groups within the data based on the model use case, even though they are not legally defined as protected classes.
+To calculate model performance values, use model performance metrics defined by your organization in the testing strategy outlined in [step 2.1.6](2-document-project.md). Fairness metrics might include equal opportunity, demographic parity, predictive parity, equal accuracy, or equalized odds. Subgroups are often protected classes. However, they could be important groups within the data based on the model use case, even though they are not legally defined as protected classes.
 
 Document or save results. 
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
 
 ### 4.3.3 Compare abd document average model predictions per subgroup
 **Model developer**: Calculate and compare average model predictions for each protected class or subgroup.
 Protected classes are groups of people who are legally protected from discrimination based on a shared characteristic, like disability, sexual orientation, or race.
-Subgroups are often protected classes. However, they could be important groups within the data based on the model use case, even though they are not legally defined as protected classes.
+Subgroups are often protected classes.
+However, they could be important groups within the data based on the model use case, even though they are not legally defined as protected classes.
 
 Document or save results. 
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
 
 ### 4.3.4 Bias metrics differences approval
 **Model owner**: Is the documentation provided by the model developer satisfactor? If bias evaluation is required, are the differences in bias metric values satisfactory?
@@ -90,14 +91,14 @@ If no, which areas need additional review?
 * [ ]  End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md). 
 * [ ]  Move forward with the model. If selected, please continue to the next step and provide additional details or justification below.
 
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
 
 ## 4.4 Assess model explainability
 
@@ -108,17 +109,17 @@ An explainable model allows human users to comprehend and trust the results of t
 Is explainability important for this use case?
 
 * [ ] Yes. If selected, continue to the next step. 
-* [ ] No. If selected, move to step [4.4.3](#4.4.3-Model-explanations-approval). 
+* [ ] No. If selected, move to step [4.4.3](#443-model-explanations-approval). 
 
 If applicable, add any additional details:
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
 
 ### 4.4.2 Document model explainability
 **Model developer**: Document model explainability method and results.
@@ -126,14 +127,14 @@ Ensure that explainability information is made available to the model end user.S
 SAS Viya includes explainability tools such as Partial Dependence (PD) plots, Individual Conditional Expectation (ICE) plots, Local Interpretable Model-Agnostic Explanation (LIME), and Kernel Shapley values (Kernel SHAP). These techniques are model-agnostic, which means that these techniques can be applied to any model that is generated by a supervised learning node.
 
 Document or save results. 
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
 
 ### 4.4.3 Model explanations approval
 **Model owner**: Is the documentation provided by the model developer satisfactor? If explanability is required, are the models' level of explainability acceptable?
@@ -149,11 +150,11 @@ If no, which areas need additional review?
 * [ ]  Update the project documentation, if selected, please return to [step 2](2-document-project.md). 
 * [ ]  End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md). 
 * [ ]  Move forward with the model. If selected, please continue to the next step and provide additional details or justification below.
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
