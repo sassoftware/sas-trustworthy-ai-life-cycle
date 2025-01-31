@@ -2,9 +2,9 @@
 sidebar_position: 4
 ---
 
-# 2. Prepare and assess data
+# 3. Prepare and assess data
 
-## 2.3 Individuals affected?
+## 3.1 Individuals affected?
 **Model owner**: Indicate whether individuals are represented in the data or affected by the use case.
 
 Are individuals represented in the data or affected by the use case?
@@ -12,8 +12,12 @@ Are individuals represented in the data or affected by the use case?
 * [ ] Yes
 * [ ] No
 
-If yes, please provide additional information and justify moving foward with these risks in mind.
+If yes, please provide additional information.
 
+> </br>
+> </br>
+> </br>
+> </br>
 > </br>
 > </br>
 > </br>
