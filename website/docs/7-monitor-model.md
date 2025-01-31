@@ -3,11 +3,12 @@ sidebar_position: 8
 ---
 
 # 7. Monitor model
+Models become less effective over time, so it is important to monitor models for potential issues and decay. b
 
 ## 7.1 Monitor model
 
 ### 7.1.1 Create model monitoring plan
-**Model developer or model engineer**: Create a model monitoring plan. Document the Key Performance Indicators (KPIs) that you will monitor, their thresholds, and the frequency at which they will be monitored.
+**Model developer or model engineer**: Create a model monitoring plan. Document the Key Performance Indicators (KPIs) that you will monitor, their thresholds, and the frequency at which they will be monitored: 
 
 > </br>
 > </br>
@@ -19,7 +20,7 @@ sidebar_position: 8
 > </br>
 
 ### 7.1.2 Execute and schedule model monitoring and KPIs
-**Model developer or model engineer**: Execute and schedule your model monitoring plan. Document or save the model's performance for the chosen KPIs. Repeat at each candense. 
+**Model developer or model engineer**: Execute and schedule your model monitoring plan. Document or save the model's performance for the chosen KPIs. Repeat at each candense: 
 
 > </br>
 > </br>
