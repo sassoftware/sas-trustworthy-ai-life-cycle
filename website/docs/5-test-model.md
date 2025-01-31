@@ -10,18 +10,18 @@ Robust model testing can find issues before a model is deployed to production.
 ### 5.1.1 Select champion model
 **Model developer**: Based on performance during training, select the best candidate for production as the champion model. 
 
-> </br> 
-> </br> 
+> <br></br> 
+> <br></br> 
 
 ### 5.1.2 Select challenger model(s)
 
 **Model developer**: Based on performance during training, note promising challenger models. 
 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br>
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br>
 
 ## 5.2 Test model
 
@@ -33,14 +33,14 @@ Robust model testing can find issues before a model is deployed to production.
 
 If applicable, add any additional details:
 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
 
 ### 5.2.2 Run tests
 **Model developer**: Once the data engineer has prepared the test data, test the model according to the testing strategy defined in step [step 2.5.2](2-document-project.md). 
@@ -50,14 +50,14 @@ If applicable, add any additional details:
 
 If applicable, add any additional details:
 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
 
 ### 5.2.3 Document test steps
 **Model developer**: Document the steps that you took to test the model and note results.
@@ -65,14 +65,14 @@ If applicable, add any additional details:
 * [ ] Completed
 * [ ] Not Completed
 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
 
 ### 5.2.4 Tests passed?
 **Model developer**: Did the model pass the tests outlined in the testing strategy?
@@ -89,15 +89,15 @@ If no, which areas need additional review?
 * [ ]  End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md).
 * [ ]  Move forward with the model. If selected, please continue and provide additional details or justification below. 
 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br>
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br>
 
 ## 5.3 Model approved for production?
 **Model owner**: Is the model approved for production?
@@ -114,11 +114,11 @@ If no, which areas need additional review?
 * [ ]  End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md). 
 * [ ]  Move forward with the model. If selected, please continue to the next step and provide additional details or justification below. 
 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 

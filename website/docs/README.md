@@ -12,4 +12,4 @@ As a result, teams can produce documentation to support the assertion that the o
 The SAS Trustworthy AI Life Cycle is a stepwise process organized into sections.
 Many tasks in the life cycle reflect guidelines put forth by the [NIST AI Risk Management Framework Playbook](https://www.nist.gov/itl/ai-risk-management-framework) as it appeared in October 2023.
 
-For complete details, see the main project [README](../../README.md).
+For complete details, see the main project README.

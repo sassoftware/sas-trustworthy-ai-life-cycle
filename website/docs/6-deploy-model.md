@@ -16,14 +16,14 @@ Deploying models allows them to be incorporated within an organization's technic
 
 If applicable, add any additional details:
 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
 
 ### 6.1.2  Deployment validation test passed?
 
@@ -34,14 +34,14 @@ Did the model deploymnet pass the deployment validation test?
 * [ ] No
 
 If applicable, add any additional details and reassign to resolve issues:
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
-> </br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
 
 ### 6.1.3 Incorporate model into existing processes
 
@@ -51,11 +51,11 @@ If applicable, add any additional details and reassign to resolve issues:
 
 If applicable, add any additional details:
 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
-> </br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
+> <br></br> 
