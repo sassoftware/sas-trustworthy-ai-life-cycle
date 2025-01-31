@@ -6,18 +6,22 @@ sidebar_position: 6
 Robust model testing can find issues before a model is deployed to production. 
 
 ## 5.1 Assign model roles
+
 ### 5.1.1 Select champion model
 **Model developer**: Based on performance during training, select the best candidate for production as the champion model. 
+
 > </br> 
 > </br> 
 
 ### 5.1.2 Select challenger model(s)
+
 **Model developer**: Based on performance during training, note promising challenger models. 
+
 > </br> 
 > </br> 
 > </br> 
 > </br> 
-</br>
+> </br>
 
 ## 5.2 Test model
 
@@ -93,7 +97,7 @@ If no, which areas need additional review?
 > </br> 
 > </br> 
 > </br> 
-</br>
+> </br>
 
 ## 5.3 Model approved for production?
 **Model owner**: Is the model approved for production?
@@ -118,4 +122,3 @@ If no, which areas need additional review?
 > </br> 
 > </br> 
 > </br> 
-
