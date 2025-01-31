@@ -21,10 +21,10 @@ Also note promisting challenger models.
 **Data engineer**: Prepare the data to test the model against documented criteria from the testing strategy outlined in step 2.5.2.
 
 ### 5.2.2 Run tests
-**Model developer**: Once the data engineer has prepared the test data, test the model according to the testing strategy defined in the Document Project step by the model developer or data engineer.
+**Model developer**: Once the data engineer has prepared the test data, test the model according to the testing strategy defined in step 2.5.2.
 
 ### 5.2.3 Document test steps
-**Model developer**: Document the steps that you took to test the model.
+**Model developer**: Document the steps that you took to test the model and note results.
 
 > </br> 
 > </br> 
@@ -37,8 +37,6 @@ Also note promisting challenger models.
 
 ### 5.2.4 Tests passed?
 **Model developer**: Did the model pass the tests outlined in the testing strategy?
-
-Did the model pass the tests as documented in the testing strategy?
 
 * [ ] Yes
 * [ ] No
