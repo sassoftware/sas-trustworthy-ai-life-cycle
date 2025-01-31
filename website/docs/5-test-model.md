@@ -22,7 +22,7 @@ Robust model testing can find issues before a model is deployed to production.
 ## 5.2 Test model
 
 ### 5.2.1 Prepare test data
-**Data engineer**: Prepare the data to test the model against documented criteria from the testing strategy outlined in step 2.5.2. 
+**Data engineer**: Prepare the data to test the model against documented criteria from the testing strategy outlined in [step 2.5.2]((2-document-project.md). 
 
 * [ ] Completed
 * [ ] Not Completed
@@ -39,7 +39,7 @@ If applicable, add any additional details:
 > </br> 
 
 ### 5.2.2 Run tests
-**Model developer**: Once the data engineer has prepared the test data, test the model according to the testing strategy defined in step 2.5.2.
+**Model developer**: Once the data engineer has prepared the test data, test the model according to the testing strategy defined in step [step 2.5.2]((2-document-project.md). 
 
 * [ ] Completed
 * [ ] Not Completed
@@ -78,11 +78,11 @@ If applicable, add any additional details:
 
 If no, which areas need additional review?
 
-* [ ]  Retrain models with new data. If selected, please return to step 3.
-* [ ]  Fine tune the models with existing data. If selected, return to step 4.
-* [ ]  Set a new champion model. If selected, please return to start of 5.
-* [ ]  Update the project documentation, if selected, please return to step 2.
-* [ ]  End the workflow. If selected, please depreciate the project and update step 2.1.1.
+* [ ]  Retrain models with new data. If selected, please return to [step 3](3-prepare-and-assess-data.md).
+* [ ]  Fine tune the models with existing data. If selected, return to [step 4](4-train-model.md).
+* [ ]  Set a new champion model. If selected, please return to [step 5](5-test-model.md).
+* [ ]  Update the project documentation, if selected, please return to [step 2](2-document-project.md). 
+* [ ]  End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md).
 * [ ]  Move forward with the model. If selected, please continue and provide additional details or justification below. 
 
 > </br> 
@@ -103,11 +103,11 @@ If no, which areas need additional review?
 
 If no, which areas need additional review?
 
-* [ ]  Retrain models with new data. If selected, please return to step 3.
-* [ ]  Fine tune the models with existing data. If selected, return to step 4.
-* [ ]  Set a new champion model. If selected, please return to start of 5.
-* [ ]  Update the project documentation, if selected, please return to step 2.
-* [ ]  End the workflow. If selected, please depreciate the project and update step 2.1.1.
+* [ ]  Retrain models with new data. If selected, please return to [step 3](3-prepare-and-assess-data.md).
+* [ ]  Fine tune the models with existing data. If selected, return to [step 4](4-train-model.md).
+* [ ]  Set a new champion model. If selected, please return to [step 5](5-test-model.md).
+* [ ]  Update the project documentation, if selected, please return to [step 2](2-document-project.md). 
+* [ ]  End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md). 
 * [ ]  Move forward with the model. If selected, please continue with step 6 and provide additional details or justification below. 
 
 > </br> 
