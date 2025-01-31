@@ -95,7 +95,7 @@ If no, which areas need additional review?
 > </br> 
 </br>
 
-### 5.3 Model approved for production?
+## 5.3 Model approved for production?
 **Model owner**: Is the model approved for production?
 
 * [ ] Yes
