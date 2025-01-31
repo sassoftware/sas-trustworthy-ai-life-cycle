@@ -88,7 +88,7 @@ If no, which areas need additional review?
 * [ ]  Set a new champion model. If selected, please return to [step 5](5-test-model.md).
 * [ ]  Update the project documentation, if selected, please return to [step 2](2-document-project.md). 
 * [ ]  End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md). 
-* [ ]  Move forward with the model. If selected, please continue with step 6 and provide additional details or justification below.
+* [ ]  Move forward with the model. If selected, please continue to the next step and provide additional details or justification below.
 
 > </br>
 > </br>
@@ -148,7 +148,7 @@ If no, which areas need additional review?
 * [ ]  Set a new champion model. If selected, please return to [step 5](5-test-model.md).
 * [ ]  Update the project documentation, if selected, please return to [step 2](2-document-project.md). 
 * [ ]  End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md). 
-* [ ]  Move forward with the model. If selected, please continue with step 6 and provide additional details or justification below.
+* [ ]  Move forward with the model. If selected, please continue to the next step and provide additional details or justification below.
 > </br>
 > </br>
 > </br>
