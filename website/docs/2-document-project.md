@@ -98,7 +98,7 @@ Did you provide all necessary documentation?
 * [ ] Yes
 * [ ] No
 
-If the answer is no, please list what is missing and re-assign section 2.1 to yourself for completion.
+If the answer is no, please list what is missing and re-assign [step 2.1](https://github.com/sassoftware/sas-trustworthy-ai-life-cycle/blob/srEdits/website/docs/2-document-project.md#21-model-owner-prepares-documentation) to yourself for completion.
 
 > </br>
 > </br>
@@ -149,7 +149,7 @@ Did the model risk owner provide all necessary documentation?
 * [ ] Yes
 * [ ] No
 
-If the answer is no, please list what is missing and re-assign section 2.2 to the model risk owner for completion.
+If the answer is no, please list what is missing and re-assign [step 2.2](https://github.com/sassoftware/sas-trustworthy-ai-life-cycle/blob/srEdits/website/docs/2-document-project.md#22-model-risk-owner-prepares-documentation) to the model risk owner for completion.
 
 > </br>
 > </br>
@@ -196,7 +196,7 @@ Did the model engineer provide all necessary documentation?
 * [ ] Yes
 * [ ] No
 
-If the answer is no, please list what is missing and re-assign section 2.3 to the model engineer for completion.
+If the answer is no, please list what is missing and re-assign [step 2.3](https://github.com/sassoftware/sas-trustworthy-ai-life-cycle/blob/srEdits/website/docs/2-document-project.md#23-model-engineer-prepares-documentation) to the model engineer for completion.
 
 > </br>
 > </br>
@@ -267,7 +267,7 @@ Did the data engineer provide all necessary documentation?
 * [ ] Yes
 * [ ] No
 
-If the answer is no, please list what is missing and re-assign section 2.4 to the data engineer for completion.
+If the answer is no, please list what is missing and re-assign [step 2.4](https://github.com/sassoftware/sas-trustworthy-ai-life-cycle/blob/srEdits/website/docs/2-document-project.md#24-data-engineer-prepares-documentation) to the data engineer for completion.
 
 > </br>
 > </br>
@@ -356,7 +356,7 @@ Did the model developer or data engineer provide all necessary documentation?
 * [ ] Yes
 * [ ] No
 
-If the answer is no, please list what is missing and re-assign section 2.5 to the model developer and/or data engineer for completion.
+If the answer is no, please list what is missing and re-assign [step 2.5](https://github.com/sassoftware/sas-trustworthy-ai-life-cycle/blob/srEdits/website/docs/2-document-project.md#25-model-developer-or-data-engineer-prepares-documentation) to the model developer and/or data engineer for completion.
 
 > </br>
 > </br>
