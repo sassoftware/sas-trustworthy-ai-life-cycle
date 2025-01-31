@@ -2,12 +2,12 @@
 sidebar_position: 3
 ---
 
-# 1. Document project
+# 2. Document project
 The following documentation helps define the project in a centralized documentation. 
 
-## 1.1 Model owner prepares documentation
+## 2.1 Model owner prepares documentation
 
-### 1.1.1 Document purpose and usage
+### 2.1.1 Document purpose and usage
 **Model owner**: Document the purpose of the modeling project, including model usage, scope, assumptions, limitations, and potential benefits and harms in accordance with the *NIST AI RMF Playbook* guidelines in Map [1.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.1), [3.2](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.2), and [3.3](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.3).
 
 > </br>
@@ -19,7 +19,7 @@ The following documentation helps define the project in a centralized documentat
 > </br>
 > </br>
 
-### 1.1.2 Document end users
+### 2.1.2 Document end users
 **Model owner**: Document end users and their expected usage in accordance with the *NIST AI RMF Playbook* guidelines in Map [1.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.1).
 
 > </br>
@@ -31,7 +31,7 @@ The following documentation helps define the project in a centralized documentat
 > </br>
 > </br>
 
-### 1.1.3 Document baseline metrics
+### 2.1.3 Document baseline metrics
 **Model owner**: Document the baseline metrics or processes used to measure the success of the current decisioning system.
 A decisioning system can be a model, a database, or a process of communication and knowledge sharing.
 Consult the *NIST AI RMF Playbook* guidelines in Map [3.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.1).
@@ -45,7 +45,7 @@ Consult the *NIST AI RMF Playbook* guidelines in Map [3.1](https://airc.nist.gov
 > </br>
 > </br>
 
-### 1.1.4 Document feedback strategy
+### 2.1.4 Document feedback strategy
 **Model owner**: Document the feedback strategy.
 The strategy should outline how users of the AI system will provide feedback to developers and deployers of the AI system in accordance to the *NIST AI RMF Playbook* guidelines in Map [5.2](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%205.2).
 
@@ -58,7 +58,7 @@ The strategy should outline how users of the AI system will provide feedback to 
 > </br>
 > </br>
 
-### 1.1.5 Document performance metrics
+### 2.1.5 Document performance metrics
 **Model owner**: Document preferred performance metrics, including fit statistics.
 Fit statistics are statistical values that assess how well a model fits a set of data.
 Metrics are used to evaluate model performance.
@@ -72,7 +72,7 @@ Metrics are used to evaluate model performance.
 > </br>
 > </br>
 
-### 1.1.6 Approve documentation?
+### 2.1.6 Approve documentation?
 **Model owner**: Review and confirm your documentation.
 
 Did you provide all necessary documentation?
@@ -80,17 +80,21 @@ Did you provide all necessary documentation?
 * [ ] Yes
 * [ ] No
 
-If no, please justify your response.
+If the answer is no, please list what is missing and re-assign section 2.1 to yourself for completion.
 
+> </br>
+> </br>
+> </br>
+> </br>
 > </br>
 > </br>
 > </br>
 > </br>
 </br>
 
-## 1.2 Model risk owner prepares documentation
+## 2.2 Model risk owner prepares documentation
 
-### 1.2.1 Document potential negative impacts
+### 2.2.1 Document potential negative impacts
 **Model risk owner**: Document the model's potential negative impacts, costs, and legal risks in accordance with the *NIST AI RMF Playbook* guidelines in Map [1.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.1), Map [4.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%204.1), and Measure [3.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Measure#Measure%203.1).
 Negative impacts include potential reduction in the well-being or financial security of individuals, communities, organizations, society, and the planet.
 Legal risks might include risks of infringement for a third party's intellectual property or other rights.
@@ -104,7 +108,7 @@ Legal risks might include risks of infringement for a third party's intellectual
 > </br>
 > </br>
 
-### 1.2.2 Document organizational risk tolerance
+### 2.2.2 Document organizational risk tolerance
 **Model risk owner**: Document the organization\'s risk tolerance and criteria for action in accordance with the *NIST AI RMF Playbook* guidelines in Map [3.2](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.2).
 Risk tolerance defines how acceptable various types of risk are according to the organization's goals and strategy.
 Risk types include financial risk, reputational risk, and potential harm to individuals present within the data or subject to the AI system.
@@ -119,7 +123,7 @@ Criteria for action describe thresholds or events that would lead to an organiza
 > </br>
 > </br>
 
-### 1.2.3 Approve documentation?
+### 2.2.3 Approve documentation?
 **Model owner**: Review documentation supplied by the model risk owner.
 
 Did the model risk owner provide all necessary documentation?
@@ -127,17 +131,21 @@ Did the model risk owner provide all necessary documentation?
 * [ ] Yes
 * [ ] No
 
-If no, please justify your response.
+If the answer is no, please list what is missing and re-assign section 2.2 to the model risk owner for completion.
 
+> </br>
+> </br>
+> </br>
+> </br>
 > </br>
 > </br>
 > </br>
 > </br>
 </br>
 
-## 1.3 Model engineer prepares documentation
+## 2.3 Model engineer prepares documentation
 
-### 1.3.1 Document processes
+### 2.3.1 Document processes
 **Model engineer**: Document data processes throughout the AI life cycle.
 This could include how data is prepared to be passed to the AI system, how data is passed to the system, and how the output is returned and used by other systems in accordance with the *NIST AI RMF Playbook* guidelines in Map [1.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.1) and [1.2](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.2).
 
@@ -150,7 +158,7 @@ This could include how data is prepared to be passed to the AI system, how data 
 > </br>
 > </br>
 
-### 1.3.2 Document the deployment location
+### 2.3.2 Document the deployment location
 **Model engineer**: Document the deployment location and external connections.
 
 > </br>
@@ -162,7 +170,7 @@ This could include how data is prepared to be passed to the AI system, how data 
 > </br>
 > </br>
 
-### 1.3.3 Approve documentation?
+### 2.3.3 Approve documentation?
 **Model owner**: Review documentation supplied by the model engineer.
 
 Did the model engineer provide all necessary documentation?
@@ -170,17 +178,21 @@ Did the model engineer provide all necessary documentation?
 * [ ] Yes
 * [ ] No
 
-If no, please justify your response.
+If the answer is no, please list what is missing and re-assign section 2.3 to the model engineer for completion.
 
+> </br>
+> </br>
+> </br>
+> </br>
 > </br>
 > </br>
 > </br>
 > </br>
 </br>
 
-## 1.4 Data engineer prepares documentation
+## 2.4 Data engineer prepares documentation
 
-### 1.4.1 Document bias assessment variables
+### 2.4.1 Document bias assessment variables
 **Data engineer**: Document variables that will be used to identify or assess bias in the data or models.
 > </br>
 > </br>
@@ -191,7 +203,7 @@ If no, please justify your response.
 > </br>
 > </br>
 
-### 1.4.2 Document the time period covered
+### 2.4.2 Document the time period covered
 **Data engineer**: Document the time period covered for both the collection and creation of the data.
 
 > </br>
@@ -203,7 +215,7 @@ If no, please justify your response.
 > </br>
 > </br>
 
-### 1.4.3 Document data limitations
+### 2.4.3 Document data limitations
 **Data engineer**: Document any known limitations of the data, including issues arising during data collection, selection, labeling, cleaning, and analysis, in accordance with the *NIST AI RMF Playbook* guidelines in Map
 [2.3](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%202.3).
 
@@ -216,7 +228,7 @@ If no, please justify your response.
 > </br>
 > </br>
 
-### 1.4.4 Document private variables
+### 2.4.4 Document private variables
 **Data engineer**: Document variables that might be considered private according to organizational guidelines and applicable regulations.
 Consider whether the unintended use of private data might expose people to harm or legal action and document a mitigation strategy in accordance with the *NIST AI RMF Playbook* guidelines in Measure [2.10](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Measure#Measure%202.10).
 
@@ -229,7 +241,7 @@ Consider whether the unintended use of private data might expose people to harm 
 > </br>
 > </br>
 
-### 1.4.5 Approve documentation?
+### 2.4.5 Approve documentation?
 **Model owner**: Review documentation supplied by the data engineer.
 
 Did the data engineer provide all necessary documentation?
@@ -237,8 +249,12 @@ Did the data engineer provide all necessary documentation?
 * [ ] Yes
 * [ ] No
 
-If no, please justify your response.
+If the answer is no, please list what is missing and re-assign section 2.4 to the data engineer for completion.
 
+> </br>
+> </br>
+> </br>
+> </br>
 > </br>
 > </br>
 > </br>
@@ -246,9 +262,9 @@ If no, please justify your response.
 </br>
 
 
-## 1.5 Model developer or data engineer prepares documentation
+## 2.5 Model developer or data engineer prepares documentation
 
-### 1.5.1 Document metadata
+### 2.5.1 Document metadata
 **Model developer or data engineer**: Document model and project metadata, including the name of the model owner, timestamps, statistical analysis tools and the version used, model performance at training time, and any other relevant information.
 This information is automatically compiled for models developed in Model Studio but can be compiled via sasctl packages for Python or R models or macros for SAS code models.
 
@@ -261,7 +277,7 @@ This information is automatically compiled for models developed in Model Studio 
 > </br>
 > </br>
 
-### 1.5.2 Document testing strategy
+### 2.5.2 Document testing strategy
 **Model developer or data engineer**: Document the model testing strategy in
 accordance with the *NIST AI RMF Playbook* guidelines in Measure
 [1.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Measure#Measure%201.1).
@@ -286,7 +302,7 @@ Rather, the questions can guide the development of the strategy itself, which sh
 > </br>
 > </br>
 
-### 1.5.3 Document thresholds
+### 2.5.3 Document thresholds
 **Model developer or data engineer**: Document threshold values for the preferred model performance metric.
 
 > </br>
@@ -298,7 +314,7 @@ Rather, the questions can guide the development of the strategy itself, which sh
 > </br>
 > </br>
 
-### 1.5.4 Document protected classes
+### 2.5.4 Document protected classes
 **Model developer or data engineer**: Document relevant protected classes and their expected proportions among individuals impacted by the AI system in accordance with the *NIST AI RMF Playbook* guidelines in Map
 [5.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%205.1).
 Protected classes are groups of people who are legally protected from discrimination based on a shared characteristic.
@@ -314,7 +330,7 @@ Legally defined protected classes can vary by country or region.
 > </br>
 > </br>
 
-### 1.5.5 Approve documentation?
+### 2.5.5 Approve documentation?
 **Model owner**: Review documentation that was supplied by the model developer or data engineer.
 
 Did the model developer or data engineer provide all necessary documentation?
@@ -322,9 +338,14 @@ Did the model developer or data engineer provide all necessary documentation?
 * [ ] Yes
 * [ ] No
 
-If no, please justify your response.
+If the answer is no, please list what is missing and re-assign section 2.5 to the model developer and/or data engineer for completion.
 
 > </br>
 > </br>
 > </br>
 > </br>
+> </br>
+> </br>
+> </br>
+> </br>
+</br>
