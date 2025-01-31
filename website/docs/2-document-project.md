@@ -25,7 +25,7 @@ If applicable, add any additional details:
 > </br>
 > </br>
 
-### .2 Document purpose and usage
+### 2.1.2 Document purpose and usage
 **Model owner**: Document the purpose of the modeling project, including model usage, scope, assumptions, limitations, and potential benefits and harms in accordance with the *NIST AI RMF Playbook* guidelines in Map [1.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.1), [3.2](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.2), and [3.3](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.3).
 
 > </br>
@@ -37,7 +37,7 @@ If applicable, add any additional details:
 > </br>
 > </br>
 
-### .3 Document end users
+### 2.1.3 Document end users
 **Model owner**: Document end users and their expected usage in accordance with the *NIST AI RMF Playbook* guidelines in Map [1.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%201.1).
 
 > </br>
@@ -49,7 +49,7 @@ If applicable, add any additional details:
 > </br>
 > </br>
 
-### .4 Document baseline metrics
+### 2.1.4 Document baseline metrics
 **Model owner**: Document the baseline metrics or processes used to measure the success of the current decisioning system.
 A decisioning system can be a model, a database, or a process of communication and knowledge sharing.
 Consult the *NIST AI RMF Playbook* guidelines in Map [3.1](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.1).
@@ -366,3 +366,4 @@ If the answer is no, please list what is missing and re-assign [step 2.5](#2.5-M
 > </br>
 > </br>
 > </br>
+</br>
