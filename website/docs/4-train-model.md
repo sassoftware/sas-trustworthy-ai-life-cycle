@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 
 # 4. Train and assess model
-Train and assess a set of models to find the most promosing set. 
+Train and assess a set of models to find the most promising set of models. 
 ## 4.1 Train models
 **Model developer**: Train and fine-tune several models. Document a set of promising models. Note the location of the models and modeling assets:
 > </br>
