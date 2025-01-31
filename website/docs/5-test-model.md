@@ -22,7 +22,7 @@ Robust model testing can find issues before a model is deployed to production.
 ## 5.2 Test model
 
 ### 5.2.1 Prepare test data
-**Data engineer**: Prepare the data to test the model against documented criteria from the testing strategy outlined in [step 2.5.2]((2-document-project.md). 
+**Data engineer**: Prepare the data to test the model against documented criteria from the testing strategy outlined in [step 2.5.2](2-document-project.md). 
 
 * [ ] Completed
 * [ ] Not Completed
@@ -39,7 +39,7 @@ If applicable, add any additional details:
 > </br> 
 
 ### 5.2.2 Run tests
-**Model developer**: Once the data engineer has prepared the test data, test the model according to the testing strategy defined in step [step 2.5.2]((2-document-project.md). 
+**Model developer**: Once the data engineer has prepared the test data, test the model according to the testing strategy defined in step [step 2.5.2](2-document-project.md). 
 
 * [ ] Completed
 * [ ] Not Completed
