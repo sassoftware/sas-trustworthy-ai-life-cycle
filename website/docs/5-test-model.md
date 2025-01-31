@@ -5,7 +5,7 @@ sidebar_position: 6
 # 5. Test model
 
 ## 5.1 Select champion model 
-**Model developer**: Based on performance during training, select the best candidate production as the champion model. 
+**Model developer**: Based on performance during training, select the best candidate for production as the champion model. 
 > </br> 
 > </br> 
 
