@@ -1,8 +1,8 @@
 ---
-sidebar_position: 9
+sidebar_position: 8
 ---
 
-# 7. Monitor model and review project
+# 7. Monitor model
 
 ## 7.1 Monitor model
 
