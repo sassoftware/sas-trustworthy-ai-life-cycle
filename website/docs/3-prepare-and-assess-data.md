@@ -270,7 +270,7 @@ What should be done about the nonexistent alternative strategies?
 > </br>
 > </br>
 
-Mode to step 3.4.13.
+Move to step 3.4.13.
 
 ### 3.4.12. Use representative data
 **Model developer or data engineer**: Use identified available representative data.
