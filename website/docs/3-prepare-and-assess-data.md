@@ -28,7 +28,7 @@ If applicable, add any additional details:
 Are individuals represented in the data or affected by the use case?
 
 * [ ] Yes. If selected, continue to next step. 
-* [ ] No. If selected, move to [step 3.5](### 3.5-Approve-data). 
+* [ ] No. If selected, move to [step 3.5](#3.5-Approve-data). 
 
 If yes, please provide additional information.
 
