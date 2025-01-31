@@ -127,7 +127,7 @@ Legal risks might include risks of infringement for a third party's intellectual
 > </br>
 
 ### 2.2.2 Document organizational risk tolerance
-**Model risk owner**: Document the organization\'s risk tolerance and criteria for action in accordance with the *NIST AI RMF Playbook* guidelines in Map [3.2](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.2).
+**Model risk owner**: Document the organization's risk tolerance and criteria for action in accordance with the *NIST AI RMF Playbook* guidelines in Map [3.2](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook/Map#Map%203.2).
 Risk tolerance defines how acceptable various types of risk are according to the organization's goals and strategy.
 Risk types include financial risk, reputational risk, and potential harm to individuals present within the data or subject to the AI system.
 Criteria for action describe thresholds or events that would lead to an organization taking risk management measures, including changes to the model or the decision to deploy the model.
