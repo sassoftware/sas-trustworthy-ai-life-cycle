@@ -2,104 +2,159 @@
 sidebar_position: 5
 ---
 
-# 5. Assess model
+# 4. Train and assess model
+Train and assess a set of models to find the most promosing set. 
+## 4.1 Train models
+**Model developer**: Train and fine-tune several models. Document a set of promising models. Note the location of the models and modeling assets:
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+</br>
 
-## 5.3 Document model evaluation metrics
-**Model developer**: Document all fit statistics used for model evaluation.
-Document resulting values for the champion and challenger models.
+## 4.2 Document model evaluation metrics
+**Model developer**: Document all fit statistics used for model evaluation. Note resulting values for promising models.
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+</br>
 
-## 5.4 Assess model bias
+## 4.3 Assess model bias
 
-### 5.4.1 Model needs bias evaluation?
+### 4.3.1 Model needs bias evaluation?
 **Model developer**: Does the model require bias evaluation, based on the implications for the use of the AI system, among other factors?
 
-Does the model require bias evaluation, based on use case and affected population?
+* [ ] Yes. If selected, move to step 4.3.2.
+* [ ] No. If selected, move to step 4.3.4.
 
-* [ ] Yes
-* [ ] No
+If applicable, add any additional details:
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
 
-Please justify your response.
-
-### 5.4.2 Compare subgroup model performance
+### 4.3.2 Compare and document subgroup model performance
 **Model developer**: Calculate and compare model performance values and additional fairness metrics for each protected class or subgroup.
-To calculate model performance values, use model performance metrics defined by your organization in the testing strategy outlined in step
-`3.1.5 - Document performance metrics`.
+To calculate model performance values, use model performance metrics defined by your organization in the testing strategy outlined in step 2.1.6.
 Fairness metrics might include equal opportunity, demographic parity, predictive parity, equal accuracy, or equalized odds. Subgroups are often protected classes.
 However, they could be important groups within the data based on the model use case, even though they are not legally defined as protected classes.
 
-### 5.4.3 Document subgroup model performance
-**Model developer**: Document subgroup model performance and fairness metric values for each protected class or subgroup found in step `5.3.2 - Compare subgroup model performance`.
+Document or save results. 
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
 
-### 5.4.4 Compare average model predictions per subgroup
+### 4.3.3 Compare abd document average model predictions per subgroup
 **Model developer**: Calculate and compare average model predictions for each protected class or subgroup.
 Protected classes are groups of people who are legally protected from discrimination based on a shared characteristic, like disability, sexual orientation, or race.
-Subgroups are often protected classes.
-However, they could be important groups within the data based on the model use case, even though they are not legally defined as protected classes.
+Subgroups are often protected classes. However, they could be important groups within the data based on the model use case, even though they are not legally defined as protected classes.
 
-### 5.4.5 Document average model predictions per subgroup
-**Model developer**: Document average model predictions for each protected class or subgroup found in step `5.3.4 - Compare average model predictions per subgroup`.
+Document or save results. 
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
 
-### 5.4.6 Bias metrics differences satisfactory?
-**Model owner**: If bias evaluation is required, document why the differences in bias metric values are satisfactory.
+### 4.3.4 Bias metrics differences satisfactory?
+**Model owner**: Is the documentation provided by the model developer satisfactor? If bias evaluation is required, are the differences in bias metric values satisfactory?
 
-Are the differences in bias metric values satisfactory?
-
-* [ ] Yes
+* [ ] Yes. 
 * [ ] No
 
-Please justify your response.
+If no, which areas need additional review?
 
-### 5.4.7 Bias metrics differences unsatisfactory. What next?
-**Model owner**: Bias metrics are outside of established thresholds.
-Decide what should be done next.
+* [ ] Retrain models with new data. If selected, please return to step 3.
+* [ ] Fine tune the models with existing data. If selected, return to top of step 4.
+* [ ] Update the project documentation, if selected, please return to step 2.
+* [ ] End the workflow. If selected, please depreciate the project and update step 2.1.1.
+* [ ]  Move forward with the model. If selected, please continue and provide additional details or justification below.
 
-How should bias be mitigated?
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
 
-* [ ] Retrain models
-* [ ] End the workflow
-* [ ] Modify or update data
-* [ ] Move forward with the model
+## 4.4 Assess model explainability
 
-### 5.4.8 Justify moving forward
-**Model owner**: If bias evaluation is required and bias metrics were outside of established thresholds but you are continuing to use the model, provide justification for moving forward with the model.
-
-### 5.4.9 Modify or update data
-**Data engineer**: If you decided to modify or update the data based on bias evaluation results, retrain the model with the updated data and ensure that the new model generates bias metrics that are within the established thresholds.
-Document results in the Assess Model Bias tasks.
-
-### 5.4.10 Retrain models
-**Model developer**: If you chose to retrain your model, retrain models to identify a model that will pass according to the testing strategy.
-If you decided to retrain the model using modified settings, ensure that the new model generates bias metrics that are within the established thresholds.
-Document results in the Assess Model Bias tasks.
-
-## 5.5 Assess model explainability
-
-### 5.5.1 Is model explainability important?
+### 4.4.1 Is model explainability important?
 **Model developer**: Is model explainability or interpretability important for this use case?
-An explainable model allows human users to comprehend and trust the results of the output generated by the model.
-Explainability is important in most use cases.
+An explainable model allows human users to comprehend and trust the results of the output generated by the model. Explainability is important in most use cases.
 
 Is explainability important for this use case?
 
-* [ ] Yes
-* [ ] No
+* [ ] Yes. If selected, move to step 4.4.2. 
+* [ ] No. If selected, move to step 4.4.3. 
 
-Please justify your response.
+If applicable, add any additional details:
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
 
-### 5.5.2 Document model explainability
+### 4.4.2 Document model explainability
 **Model developer**: Document model explainability method and results.
-Ensure that explainability information is made available to the model end user.
-Select the most appropriate explainability methods for the use case and model type.
-SAS Viya includes explainability tools such as Partial Dependence (PD) plots, Individual Conditional Expectation (ICE) plots, Local Interpretable Model-Agnostic Explanation (LIME), and Kernel Shapley values (Kernel SHAP).
-These techniques are model-agnostic, which means that these techniques can be applied to any model that is generated by a supervised learning node.
+Ensure that explainability information is made available to the model end user.Select the most appropriate explainability methods for the use case and model type.
+SAS Viya includes explainability tools such as Partial Dependence (PD) plots, Individual Conditional Expectation (ICE) plots, Local Interpretable Model-Agnostic Explanation (LIME), and Kernel Shapley values (Kernel SHAP). These techniques are model-agnostic, which means that these techniques can be applied to any model that is generated by a supervised learning node.
 
-### 5.5.3 Model explanations satisfactory?
-**Model owner**: Indicate whether model explanations are satisfactory.
-Describe the model's level of explainability and justify why explanations are acceptable.
+Document or save results. 
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
 
-Are model explanations satisfactory?
+### 4.4.3 Model explanations satisfactory?
+**Model owner**: Is the documentation provided by the model developer satisfactor? If explanability is required, are the models' level of explainability acceptable?
 
 * [ ] Yes
 * [ ] No
 
-Please justify your response.
+If no, which areas need additional review?
+
+* [ ] Retrain models with new data. If selected, please return to step 3.
+* [ ] Fine tune the models with existing data. If selected, return to top of step 4.
+* [ ] Update the project documentation, if selected, please return to step 2.
+* [ ] End the workflow. If selected, please depreciate the project and update step 2.1.1.
+* [ ]  Move forward with the model. If selected, please continue and provide additional details or justification below.
+
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
+> </br>
