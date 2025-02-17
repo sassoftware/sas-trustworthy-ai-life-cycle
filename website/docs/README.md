@@ -13,7 +13,7 @@ Many tasks in the life cycle reflect guidelines put forth by the [NIST AI Risk M
 
 This resource was originally created to accompany the SAS Trustworthy AI Life Cycle Workflow orchestrated in SAS Workflow Manager on Viya. Though our workflow provides the capability to easily make and manage responsible AI models end to end, this guide does not require a SAS license. In the spirit of open source, SAS seeks to expand responsible AI management practices, share expertise with other organizations, and spark innovation through community input. In other words, this document can be used by anyone, anywhere.
 
-Maintainers are accepting patches and contributions to this project. Please read CONTRIBUTING.md for details about submitting contributions.
+Maintainers are accepting patches and contributions to this project. Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details about submitting contributions.
 
 
 
