@@ -277,7 +277,7 @@ If the answer is no, please list what is missing and re-assign [step 2.4](#24-da
 > <br></br>
 > <br></br>
 > <br></br>
-<br></br>
+> <br></br>
 
 
 ## 2.5 Model developer or data engineer prepares documentation
@@ -366,4 +366,4 @@ If the answer is no, please list what is missing and re-assign [step 2.5](#25-mo
 > <br></br>
 > <br></br>
 > <br></br>
-<br></br>
+> <br></br>
