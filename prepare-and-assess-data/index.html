@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.7.0">
 <title data-rh="true">3. Prepare and assess data | SAS Trustworthy AI Life Cycle</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://miniature-bassoon-6kry92e.pages.github.io/prepare-and-assess-data"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="3. Prepare and assess data | SAS Trustworthy AI Life Cycle"><meta data-rh="true" name="description" content="Prepare and assess data for future model training."><meta data-rh="true" property="og:description" content="Prepare and assess data for future model training."><link data-rh="true" rel="icon" href="/images/sas.png"><link data-rh="true" rel="canonical" href="https://miniature-bassoon-6kry92e.pages.github.io/prepare-and-assess-data"><link data-rh="true" rel="alternate" href="https://miniature-bassoon-6kry92e.pages.github.io/prepare-and-assess-data" hreflang="en"><link data-rh="true" rel="alternate" href="https://miniature-bassoon-6kry92e.pages.github.io/prepare-and-assess-data" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.ecef51d9.css">
-<script src="/assets/js/runtime~main.df69e066.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.8b8046b7.js" defer="defer"></script>
 <script src="/assets/js/main.3ad46d1f.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -126,7 +126,7 @@ Describe the steps taken to remove PII or mask the data.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="34-assess-data-bias">3.4 Assess data bias<a href="#34-assess-data-bias" class="hash-link" aria-label="Direct link to 3.4 Assess data bias" title="Direct link to 3.4 Assess data bias">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="341-document-data-quality-related-biases">3.4.1 Document data-quality-related biases<a href="#341-document-data-quality-related-biases" class="hash-link" aria-label="Direct link to 3.4.1 Document data-quality-related biases" title="Direct link to 3.4.1 Document data-quality-related biases">​</a></h3>
 <p><strong>Model developer or data engineer</strong>: Document potential biases introduced due to data quality.
-Consider how data quality issues can result in unwanted biases. For example, do patterns in missing or incomplete data correspond to any protected group classes, like individuals of a specific demographic group?If so, document this bias.</p>
+Consider how data quality issues can result in unwanted biases. For example, do patterns in missing or incomplete data correspond to any protected classes, like individuals of a specific demographic group? If so, document this bias.</p>
 <blockquote>
 <br>
 <br>
@@ -148,8 +148,6 @@ Proxy variables are not themselves protected classes but are statistically relat
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="343-are-variables-inputs-to-model">3.4.3 Are variables inputs to model?<a href="#343-are-variables-inputs-to-model" class="hash-link" aria-label="Direct link to 3.4.3 Are variables inputs to model?" title="Direct link to 3.4.3 Are variables inputs to model?">​</a></h3>
 <p><strong>Model developer</strong>: Indicate whether the model variable includes information about protected classes or proxy variables for protected classes. If so, document the protected class or proxy variables that are to be included in the model.</p>
-<p>Protected classes are groups of people who are legally protected from discrimination based on a shared characteristic, like disability, sexual orientation, or race.
-Proxy variables are not themselves protected classes but are statistically related to protected class variables.For example, a ZIP code might reveal information about an individual&#x27;s race or age due to a high concentration of residents from that group.</p>
 <p>Does the model variables include information relating to protected classes or proxy variables for protected classes?</p>
 <ul class="contains-task-list containsTaskList_mC6p">
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Yes. If selected, continue to the next step.</li>
@@ -173,7 +171,7 @@ Proxy variables are not themselves protected classes but are statistically relat
 <br>
 </blockquote>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="345-document-risks-and-justification">3.4.5 Document risks and justification<a href="#345-document-risks-and-justification" class="hash-link" aria-label="Direct link to 3.4.5 Document risks and justification" title="Direct link to 3.4.5 Document risks and justification">​</a></h3>
-<p><strong>Model developer</strong>: Document data bias risks and associated variables and provide justification for their inclusion.</p>
+<p><strong>Model developer</strong>: Document data bias risks and variables associated with bias risk. Provide justification for their inclusion.</p>
 <blockquote>
 <br>
 <br>
@@ -203,11 +201,11 @@ Proxy variables are not themselves protected classes but are statistically relat
 </blockquote>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="347-data-representative-of-population">3.4.7 Data representative of population<a href="#347-data-representative-of-population" class="hash-link" aria-label="Direct link to 3.4.7 Data representative of population" title="Direct link to 3.4.7 Data representative of population">​</a></h3>
 <p><strong>Model developer or data engineer</strong>: Indicate whether the data represents the population to which the model will be applied.
-Representativeness indicates whether the individuals present in the data mirror the intended population and reflect all essential properties of the population in an accurate way.In other words, a data set or sample is representative if all the elements in a population have the same chance to be part of the sample on which data was collected.</p>
+Representativeness indicates whether the individuals present in the data mirror the intended population and reflect all essential properties of the population in an accurate way. In other words, a data set or sample is representative if all the elements in a population have the same chance to be part of the sample on which data was collected.</p>
 <p>Does the data represent the population to which the model will be applied?</p>
 <ul class="contains-task-list containsTaskList_mC6p">
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Yes. If selected, provide evidence below the data is representative and move to <a href="#3413-data-bias-approval">step 3.4.13</a>.</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->No. If selected, contine to next step.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->No. If selected, continue to next step.</li>
 </ul>
 <p>If applicable, add any additional details:</p>
 <blockquote>
@@ -232,9 +230,19 @@ Representativeness indicates whether the individuals present in the data mirror 
 If so, document those strategies and implement them.</p>
 <p>Do alternative strategies exist?</p>
 <ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Yes. If selected, move to <a href="#3412-use-representative-data">step 3.4.12</a>.</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->No. If selected, contine to next step.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Yes. If selected, document strategy. Then move to <a href="#3412-use-representative-data">step 3.4.12</a> to implement strategy.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->No. If selected, continue to next step.</li>
 </ul>
+<blockquote>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</blockquote>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="3410-document-data-bias-risks-and-implications">3.4.10 Document data bias risks and implications<a href="#3410-document-data-bias-risks-and-implications" class="hash-link" aria-label="Direct link to 3.4.10 Document data bias risks and implications" title="Direct link to 3.4.10 Document data bias risks and implications">​</a></h3>
 <p><strong>Model developer or data engineer</strong>: Document data bias risks and any implications that could arise as a result. Consider risks that might arise from availability bias, recall bias, exclusion bias, pre-processing bias, measurement bias, time-interval bias, historical bias, selection bias, attrition bias, or other forms of bias.</p>
 <blockquote>
@@ -249,9 +257,9 @@ If so, document those strategies and implement them.</p>
 </blockquote>
 <p>What should be done about the nonexistent alternative strategies?</p>
 <ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->End the workflow. If selected, please depreciate the project abd update <a href="/document-project">step 2.1.1</a>.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->End the workflow. If selected, please depreciate the project and update <a href="/document-project">step 2.1.1</a>.</li>
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Modify or update data. If selected, return to <a href="#31-collect-and-prepare-analytical-base-table">step 3.1</a>.</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Move forward with the data.If selected, contine to next step.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Move forward with the data. If selected, continue to next step.</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="3411-justify-moving-forward">3.4.11 Justify moving forward<a href="#3411-justify-moving-forward" class="hash-link" aria-label="Direct link to 3.4.11 Justify moving forward" title="Direct link to 3.4.11 Justify moving forward">​</a></h3>
 <p><strong>Model owner</strong>: If you have decided to move forward with using the data even though issues were identified, provide justification for moving forward with the data.</p>
@@ -267,7 +275,7 @@ If so, document those strategies and implement them.</p>
 </blockquote>
 <p>Move to <a href="#3413-data-bias-approval">step 3.4.13</a>.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="3412-use-representative-data">3.4.12 Use representative data<a href="#3412-use-representative-data" class="hash-link" aria-label="Direct link to 3.4.12 Use representative data" title="Direct link to 3.4.12 Use representative data">​</a></h3>
-<p><strong>Model developer or data engineer</strong>: Use identified available representative data.</p>
+<p><strong>Model developer or data engineer</strong>: Use identified representative data, if available, or employ alternative strategy documented in 3.4.9.</p>
 <ul class="contains-task-list containsTaskList_mC6p">
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Completed</li>
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Not Completed</li>
