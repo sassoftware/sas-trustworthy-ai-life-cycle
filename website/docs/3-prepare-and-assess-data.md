@@ -127,7 +127,7 @@ If no, please justify your response and reassign step 3 for completion.
 
 ### 3.4.1 Document data-quality-related biases
 **Model developer or data engineer**: Document potential biases introduced due to data quality.
-Consider how data quality issues can result in unwanted biases. For example, do patterns in missing or incomplete data correspond to any protected group classes, like individuals of a specific demographic group?If so, document this bias.
+Consider how data quality issues can result in unwanted biases. For example, do patterns in missing or incomplete data correspond to any protected classes, like individuals of a specific demographic group? If so, document this bias.
 
 > <br></br>
 > <br></br>
@@ -151,9 +151,6 @@ Does the data include information relating to protected classes or proxy variabl
 ### 3.4.3 Are variables inputs to model?
 **Model developer**: Indicate whether the model variable includes information about protected classes or proxy variables for protected classes. If so, document the protected class or proxy variables that are to be included in the model.
 
-Protected classes are groups of people who are legally protected from discrimination based on a shared characteristic, like disability, sexual orientation, or race.
-Proxy variables are not themselves protected classes but are statistically related to protected class variables.For example, a ZIP code might reveal information about an individual's race or age due to a high concentration of residents from that group.
-
 Does the model variables include information relating to protected classes or proxy variables for protected classes?
 
 * [ ] Yes. If selected, continue to the next step. 
@@ -176,7 +173,7 @@ If applicable, add any additional details:
 > <br></br>
 
 ### 3.4.5 Document risks and justification
-**Model developer**: Document data bias risks and associated variables and provide justification for their inclusion.
+**Model developer**: Document data bias risks and variables associated with bias risk. Provide justification for their inclusion.
 
 > <br></br>
 > <br></br>
@@ -205,12 +202,12 @@ If applicable, add any additional details:
 
 ### 3.4.7 Data representative of population
 **Model developer or data engineer**: Indicate whether the data represents the population to which the model will be applied.
-Representativeness indicates whether the individuals present in the data mirror the intended population and reflect all essential properties of the population in an accurate way.In other words, a data set or sample is representative if all the elements in a population have the same chance to be part of the sample on which data was collected.
+Representativeness indicates whether the individuals present in the data mirror the intended population and reflect all essential properties of the population in an accurate way. In other words, a data set or sample is representative if all the elements in a population have the same chance to be part of the sample on which data was collected.
 
 Does the data represent the population to which the model will be applied?
 
 * [ ] Yes. If selected, provide evidence below the data is representative and move to [step 3.4.13](#3413-data-bias-approval). 
-* [ ] No. If selected, contine to next step. 
+* [ ] No. If selected, continue to next step. 
 
 If applicable, add any additional details:
 > <br></br>
@@ -236,9 +233,17 @@ If so, document those strategies and implement them.
 
 Do alternative strategies exist?
 
-* [ ] Yes. If selected, move to [step 3.4.12](#3412-use-representative-data). 
-* [ ] No. If selected, contine to next step. 
+* [ ] Yes. If selected, document strategy. Then move to [step 3.4.12](#3412-use-representative-data) to implement strategy. 
+* [ ] No. If selected, continue to next step.
 
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
+> <br></br>
 
 ### 3.4.10 Document data bias risks and implications
 **Model developer or data engineer**: Document data bias risks and any implications that could arise as a result. Consider risks that might arise from availability bias, recall bias, exclusion bias, pre-processing bias, measurement bias, time-interval bias, historical bias, selection bias, attrition bias, or other forms of bias.
@@ -254,9 +259,9 @@ Do alternative strategies exist?
 
 What should be done about the nonexistent alternative strategies?
 
-* [ ] End the workflow. If selected, please depreciate the project abd update [step 2.1.1](2-document-project.md).
+* [ ] End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md).
 * [ ] Modify or update data. If selected, return to [step 3.1](#31-collect-and-prepare-analytical-base-table).
-* [ ] Move forward with the data.If selected, contine to next step. 
+* [ ] Move forward with the data. If selected, continue to next step. 
 
 ### 3.4.11 Justify moving forward
 **Model owner**: If you have decided to move forward with using the data even though issues were identified, provide justification for moving forward with the data. 
@@ -273,7 +278,7 @@ What should be done about the nonexistent alternative strategies?
 Move to [step 3.4.13](#3413-data-bias-approval).
 
 ### 3.4.12 Use representative data
-**Model developer or data engineer**: Use identified available representative data.
+**Model developer or data engineer**: Use identified representative data, if available, or employ alternative strategy documented in 3.4.9.
 
 * [ ] Completed
 * [ ] Not Completed

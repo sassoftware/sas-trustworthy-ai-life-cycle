@@ -211,7 +211,8 @@ If the answer is no, please list what is missing and re-assign [step 2.3](#23-mo
 ## 2.4 Data engineer prepares documentation
 
 ### 2.4.1 Document bias assessment variables
-**Data engineer**: Document variables that will be used to identify or assess bias in the data or models. Bias assessment variables are present in the data and sometimes represent demographic characteristics. 
+**Data engineer**: Document variables that will be used to identify or assess bias in the data or models. Bias assessment variables help identify unacceptable, systematic differences between subpopulations.
+
 > <br></br>
 > <br></br>
 > <br></br>
@@ -277,7 +278,7 @@ If the answer is no, please list what is missing and re-assign [step 2.4](#24-da
 > <br></br>
 > <br></br>
 > <br></br>
-<br></br>
+> <br></br>
 
 
 ## 2.5 Model developer or data engineer prepares documentation
@@ -366,4 +367,4 @@ If the answer is no, please list what is missing and re-assign [step 2.5](#25-mo
 > <br></br>
 > <br></br>
 > <br></br>
-<br></br>
+> <br></br>
