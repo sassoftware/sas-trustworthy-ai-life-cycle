@@ -58,7 +58,7 @@ This workflow can help users orchestrate trustworthy model creation and manageme
 
 ## Contributing
 Maintainers are accepting patches and contributions to this project.
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details about submitting contributions to this project.
+Please read CONTRIBUTING.md in the project's repository for details about submitting contributions.
 
 ## License
 Materials in this repository are licensed under the [Apache 2.0 License](LICENSE).
