@@ -278,7 +278,7 @@ What should be done about the nonexistent alternative strategies?
 Move to [step 3.4.13](#3413-data-bias-approval).
 
 ### 3.4.12 Use representative data
-**Model developer or data engineer**: Use identified representative data, if available, or employ alternative strategy documented in 3.4.9.
+**Model developer or data engineer**: Use identified representative data, if available, or employ alternative strategy documented in [3.4.9](#349-alternative-strategies-exist).
 
 * [ ] Completed
 * [ ] Not Completed
