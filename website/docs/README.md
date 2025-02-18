@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# SAS Trustworthy AI Life Cycle - An Open Source Guide
+# SAS Trustworthy AI Life Cycle
 The SAS Trustworthy AI Life Cycle outlines steps for evaluating and deploying a more trustworthy AI system. The life cycle aims to make the U.S. National Institute of Standards and Technology's (NIST) recommendations, standards, and best practices [for AI risk management](https://airc.nist.gov/AI_RMF_Knowledge_Base/AI_RMF) easier to adopt and follow.
 
 ## About
