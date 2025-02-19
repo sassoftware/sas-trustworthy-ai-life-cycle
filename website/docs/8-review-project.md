@@ -8,12 +8,11 @@ sidebar_position: 9
 
 #### 8.1.1 Review production model
 
-**Model owner**: On a regular cadence decided on by your organization, review the production model to ensure it is continuing to satisfy the needs of the use case.
+**Model owner**: On a regular cadence chosen by your organization, review the production model to ensure it continues to satisfy the needs of the use case.
 Review your documentation from the model development and deployment process.
 Based on your evaluation, consider the following:
 
-Please review the model project and ensure that everything is still satisfactory.
-Do any areas need additional attention?
+Do any areas of the model project need additional attention?
 
 * [ ] Identify stakeholders. If selected, please return to [step 1](1-identify-stakeholders.md). 
 * [ ] Document the project. If selected, please return to [step 2](2-document-project.md). 
