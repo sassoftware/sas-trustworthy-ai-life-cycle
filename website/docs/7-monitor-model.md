@@ -42,7 +42,7 @@ The model no longer meets predetermined thresholds. What are the next steps?
 * [ ] Set a new champion model. If selected, return to [step 5](5-test-model.md). 
 * [ ] Update the project documentation. If selected, return to [step 2](2-document-project.md). 
 * [ ] End the workflow. If selected, depreciate the project and update [step 2.1.1](2-document-project.md). 
-* [ ] Move forward with the model. If selected, continue with [step 7.1.2](#712-execute-and-schedule-model-monitoring-and-KPIs).
+* [ ] Move forward with the model. If selected, continue with [step 7.1.2](#712-execute-and-schedule-model-monitoring-and-kpis).
 
 > <br></br>
 > <br></br>
