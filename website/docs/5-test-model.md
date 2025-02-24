@@ -29,7 +29,7 @@ Robust model testing can find issues before a model is deployed to production.
 **Data engineer**: Prepare the data to test the model against documented criteria from the testing strategy outlined in [step 2.5.2](2-document-project.md). 
 
 * [ ] Completed
-* [ ] Not Completed
+* [ ] Not completed
 
 If applicable, add any additional details:
 
@@ -46,7 +46,7 @@ If applicable, add any additional details:
 **Model developer**: Once the data engineer has prepared the test data, test the model according to the testing strategy defined in [step 2.5.2](2-document-project.md). 
 
 * [ ] Completed
-* [ ] Not Completed
+* [ ] Not completed
 
 If applicable, add any additional details:
 
@@ -63,7 +63,7 @@ If applicable, add any additional details:
 **Model developer**: Document the steps that you took to test the model and note results.
 
 * [ ] Completed
-* [ ] Not Completed
+* [ ] Not completed
 
 > <br></br> 
 > <br></br> 
@@ -82,12 +82,12 @@ If applicable, add any additional details:
 
 If no, which areas need additional review?
 
-* [ ]  Retrain models with new data. If selected, please return to [step 3](3-prepare-and-assess-data.md).
+* [ ]  Retrain models with new data. If selected, return to [step 3](3-prepare-and-assess-data.md).
 * [ ]  Fine-tune the models with existing data. If selected, return to [step 4](4-train-model.md).
-* [ ]  Set a new champion model. If selected, please return to [step 5](5-test-model.md).
-* [ ]  Update the project documentation. If selected, please return to [step 2](2-document-project.md). 
-* [ ]  End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md).
-* [ ]  Move forward with the model. If selected, please continue and provide additional details or justification below. 
+* [ ]  Set a new champion model. If selected, return to [step 5](5-test-model.md).
+* [ ]  Update the project documentation. If selected, return to [step 2](2-document-project.md). 
+* [ ]  End the workflow. If selected, depreciate the project and update [step 2.1.1](2-document-project.md).
+* [ ]  Move forward with the model. If selected, provide additional details or a justification, and then continue to the next step.
 
 > <br></br> 
 > <br></br> 
@@ -107,12 +107,12 @@ If no, which areas need additional review?
 
 If no, which areas need additional review?
 
-* [ ]  Retrain models with new data. If selected, please return to [step 3](3-prepare-and-assess-data.md).
+* [ ]  Retrain models with new data. If selected, return to [step 3](3-prepare-and-assess-data.md).
 * [ ]  Fine-tune the models with existing data. If selected, return to [step 4](4-train-model.md).
-* [ ]  Set a new champion model. If selected, please return to [step 5](5-test-model.md).
-* [ ]  Update the project documentation. If selected, please return to [step 2](2-document-project.md). 
-* [ ]  End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md). 
-* [ ]  Move forward with the model. If selected, please provide additional details or justification below and continue to the next step. 
+* [ ]  Set a new champion model. If selected, return to [step 5](5-test-model.md).
+* [ ]  Update the project documentation. If selected, return to [step 2](2-document-project.md). 
+* [ ]  End the workflow. If selected, depreciate the project and update [step 2.1.1](2-document-project.md). 
+* [ ]  Move forward with the model. If selected, provide additional details or a justification, and then continue to the next step. 
 
 > <br></br> 
 > <br></br> 
