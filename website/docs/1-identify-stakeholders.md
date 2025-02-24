@@ -20,35 +20,35 @@ This role aligns with the NIST AI RMF Playbook guidelines in Measure [2.8](https
 ## 1.2 Identify stakeholders
 **Model owner**: Identify relevant stakeholders. One individual might perform multiple roles, depending on the structure of your organization.
 
-Identify the **model developer(s)** and provide their contact information.
+Identify the **model developers** and provide their contact information.
 The model developer is the data scientist who develops the model.
 
 > <br></br>
 > <br></br>
 > <br></br>
 
-Identify the **model engineer(s)** and provide their contact information.
+Identify the **model engineers** and provide their contact information.
 The model engineer is responsible for deploying the model.
 
 > <br></br>
 > <br></br>
 > <br></br>
 
-Identify the **model risk owner(s)** and provide their contact information.
+Identify the **model risk owners** and provide their contact information.
 The model risk owner identifies, manages, and documents model risks.
 
 > <br></br>
 > <br></br>
 > <br></br>
 
-Identify the **data engineer(s)** and provide their contact information.
+Identify the **data engineers** and provide their contact information.
 The data engineer compiles and prepares the data for modeling.
 
 > <br></br>
 > <br></br>
 > <br></br>
 
-Identify the **domain expert(s)** and provide their contact information.
+Identify the **domain experts** and provide their contact information.
 The domain expert is available to address business and domain questions.
 
 > <br></br>

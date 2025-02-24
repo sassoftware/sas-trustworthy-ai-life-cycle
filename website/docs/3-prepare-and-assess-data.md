@@ -9,7 +9,7 @@ Prepare and assess data for future model training.
 **Data engineer**: Collect and prepare an analytical base table to be used in model training. 
 
 * [ ] Completed
-* [ ] Not Completed
+* [ ] Not completed
 
 If applicable, add any additional details:
 
@@ -188,7 +188,7 @@ If applicable, add any additional details:
 **Model developer**: If there are unnecessary protected classes or proxy variables in the model, remove them from the model.
 
 * [ ]  Completed
-* [ ]  Not Completed
+* [ ]  Not completed
 
 If applicable, add any additional details:
 > <br></br>
@@ -206,7 +206,7 @@ Representativeness indicates whether the individuals present in the data mirror 
 
 Does the data represent the population to which the model will be applied?
 
-* [ ] Yes. If selected, provide evidence below the data is representative and move to [step 3.4.13](#3413-data-bias-approval). 
+* [ ] Yes. If selected, provide evidence that the data is representative, and move to [step 3.4.13](#3413-data-bias-approval). 
 * [ ] No. If selected, continue to next step. 
 
 If applicable, add any additional details:
@@ -259,7 +259,7 @@ Do alternative strategies exist?
 
 What should be done about the nonexistent alternative strategies?
 
-* [ ] End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md).
+* [ ] End the workflow. If selected, depreciate the project and update [step 2.1.1](2-document-project.md).
 * [ ] Modify or update data. If selected, return to [step 3.1](#31-collect-and-prepare-analytical-base-table).
 * [ ] Move forward with the data. If selected, continue to next step. 
 
@@ -278,10 +278,10 @@ What should be done about the nonexistent alternative strategies?
 Move to [step 3.4.13](#3413-data-bias-approval).
 
 ### 3.4.12 Use representative data
-**Model developer or data engineer**: Use identified representative data, if available, or employ alternative strategy documented in [3.4.9](#349-alternative-strategies-exist).
+**Model developer or data engineer**: Use identified representative data, if available, or use the alternative strategy that was documented in [step 3.4.9](#349-alternative-strategies-exist).
 
 * [ ] Completed
-* [ ] Not Completed
+* [ ] Not completed
 
 If applicable, add any additional details:
 

@@ -47,8 +47,11 @@ If applicable, add any additional details:
 > <br></br>
 
 ### 4.3.2 Compare and document subgroup model performance
-**Model developer**: Calculate and compare model performance values and additional fairness metrics for each protected class or subgroup. Subgroups are often protected classes, or groups of people who are legally protected from discrimination based on a shared characteristic, like disability, sexual orientation, or race. However, subgroups could be important groups within the data based on the model use case, even though they are not legally defined as protected classes.
-To calculate model performance values, use model performance metrics defined by your organization in the testing strategy outlined in [step 2.1.6](2-document-project.md). Fairness metrics might include equal opportunity, demographic parity, predictive parity, equal accuracy, or equalized odds. 
+**Model developer**: Calculate and compare model performance values and additional fairness metrics for each protected class or subgroup. 
+Subgroups are often protected classes, or groups of people that are legally protected from discrimination based on a shared characteristic, such as a disability, sexual orientation, or race. 
+However, subgroups could also be important groups within the data based on the model use case, even though they are not legally defined as protected classes.
+To calculate model performance values, use model performance metrics defined by your organization in the testing strategy outlined in [step 2.1.6](2-document-project.md). 
+Fairness metrics might include equal opportunity, demographic parity, predictive parity, equal accuracy, or equalized odds. 
 
 Document or save results. 
 > <br></br>
@@ -81,12 +84,12 @@ Document or save results.
 
 If no, which areas need additional review?
 
-* [ ]  Retrain models with new data. If selected, please return to [step 3](3-prepare-and-assess-data.md).
+* [ ]  Retrain models with new data. If selected, return to [step 3](3-prepare-and-assess-data.md).
 * [ ]  Fine-tune the models with existing data. If selected, return to [step 4](4-train-model.md).
-* [ ]  Set a new champion model. If selected, please return to [step 5](5-test-model.md).
-* [ ]  Update the project documentation. If selected, please return to [step 2](2-document-project.md). 
-* [ ]  End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md). 
-* [ ]  Move forward with the model. If selected, please provide additional details or justification and continue to the next step.
+* [ ]  Set a new champion model. If selected, return to [step 5](5-test-model.md).
+* [ ]  Update the project documentation. If selected, return to [step 2](2-document-project.md). 
+* [ ]  End the workflow. If selected, depreciate the project and update [step 2.1.1](2-document-project.md). 
+* [ ]  Move forward with the model. If selected, provide additional details or a justification, and then continue to the next step.
 
 > <br></br>
 > <br></br>
@@ -141,12 +144,12 @@ Document or save results.
 
 If no, which areas need additional review?
 
-* [ ]  Retrain models with new data. If selected, please return to [step 3](3-prepare-and-assess-data.md).
+* [ ]  Retrain models with new data. If selected, return to [step 3](3-prepare-and-assess-data.md).
 * [ ]  Fine-tune the models with existing data. If selected, return to [step 4](4-train-model.md).
-* [ ]  Set a new champion model. If selected, please return to [step 5](5-test-model.md).
-* [ ]  Update the project documentation. If selected, please return to [step 2](2-document-project.md). 
-* [ ]  End the workflow. If selected, please depreciate the project and update [step 2.1.1](2-document-project.md). 
-* [ ]  Move forward with the model. If selected, please provide additional details or justification and continue to the next step.
+* [ ]  Set a new champion model. If selected, return to [step 5](5-test-model.md).
+* [ ]  Update the project documentation. If selected, return to [step 2](2-document-project.md). 
+* [ ]  End the workflow. If selected, depreciate the project and update [step 2.1.1](2-document-project.md). 
+* [ ]  Move forward with the model. If selected, provide additional details or a justification, and then continue to the next step.
 > <br></br>
 > <br></br>
 > <br></br>

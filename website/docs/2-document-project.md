@@ -211,7 +211,7 @@ If the answer is no, please list what is missing and re-assign [step 2.3](#23-mo
 ## 2.4 Data engineer prepares documentation
 
 ### 2.4.1 Document bias assessment variables
-**Data engineer**: Document variables that will be used to identify or assess bias in the data or models. Bias assessment variables help identify unacceptable, systematic differences between subpopulations.
+**Data engineer**: Document variables that will be used to identify or assess bias in the data or models. Bias assessment variables help identify unacceptable, and systematic differences between subpopulations.
 
 > <br></br>
 > <br></br>
@@ -304,7 +304,7 @@ Consider the following questions when developing the testing strategy.
 Note that answers to the questions do not need to be explicitly documented in the testing strategy.
 Rather, the questions can guide the development of the strategy itself, which should be documented in this step.
 
-1. Are there systemic differences in representativeness, missing data, input data distributions, or output data distributions between data used to train the model, data used to test the model, and data for the population or setting into which the AI system will be deployed?
+1. Are there systemic differences in representativeness, missing data, input data distributions, or output data distributions between the data that is used to train the model, the data that is used to test the model, and the data for the population or setting into which the AI system will be deployed?
 2. Should the model be tested in out of distribution samples?
 3. How does the model behave when encountering values not included in the training data? 
 4. Are training and testing samples independent? What method was used to create the training and testing data sets?
@@ -357,7 +357,7 @@ Did the model developer or data engineer provide all necessary documentation?
 * [ ] Yes
 * [ ] No
 
-If the answer is no, please list what is missing and re-assign [step 2.5](#25-model-developer-or-data-engineer-prepares-documentation) to the model developer and/or data engineer for completion.
+If the answer is no, please list what is missing and re-assign [step 2.5](#25-model-developer-or-data-engineer-prepares-documentation) to the model developer or data engineer for completion.
 
 > <br></br>
 > <br></br>

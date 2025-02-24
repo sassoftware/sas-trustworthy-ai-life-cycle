@@ -25,4 +25,4 @@ Anyone, anywhere, can use this document.
 
 ## Contributing
 Maintainers are accepting patches and contributions to this project.
-Please read CONTRIBUTING.md for details about submitting contributions.
+ read CONTRIBUTING.md for details about submitting contributions.
