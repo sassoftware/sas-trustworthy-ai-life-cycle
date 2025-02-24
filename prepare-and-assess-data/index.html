@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.7.0">
 <title data-rh="true">3. Prepare and assess data | SAS Trustworthy AI Life Cycle</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://miniature-bassoon-6kry92e.pages.github.io/prepare-and-assess-data"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="3. Prepare and assess data | SAS Trustworthy AI Life Cycle"><meta data-rh="true" name="description" content="Prepare and assess data for future model training."><meta data-rh="true" property="og:description" content="Prepare and assess data for future model training."><link data-rh="true" rel="icon" href="/images/sas.png"><link data-rh="true" rel="canonical" href="https://miniature-bassoon-6kry92e.pages.github.io/prepare-and-assess-data"><link data-rh="true" rel="alternate" href="https://miniature-bassoon-6kry92e.pages.github.io/prepare-and-assess-data" hreflang="en"><link data-rh="true" rel="alternate" href="https://miniature-bassoon-6kry92e.pages.github.io/prepare-and-assess-data" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.ecef51d9.css">
-<script src="/assets/js/runtime~main.f0d70f03.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.3ab63dd4.js" defer="defer"></script>
 <script src="/assets/js/main.3ad46d1f.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -14,7 +14,7 @@
 <p><strong>Data engineer</strong>: Collect and prepare an analytical base table to be used in model training.</p>
 <ul class="contains-task-list containsTaskList_mC6p">
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Completed</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Not Completed</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Not completed</li>
 </ul>
 <p>If applicable, add any additional details:</p>
 <blockquote>
@@ -186,7 +186,7 @@ Proxy variables are not themselves protected classes but are statistically relat
 <p><strong>Model developer</strong>: If there are unnecessary protected classes or proxy variables in the model, remove them from the model.</p>
 <ul class="contains-task-list containsTaskList_mC6p">
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Completed</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Not Completed</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Not completed</li>
 </ul>
 <p>If applicable, add any additional details:</p>
 <blockquote>
@@ -204,7 +204,7 @@ Proxy variables are not themselves protected classes but are statistically relat
 Representativeness indicates whether the individuals present in the data mirror the intended population and reflect all essential properties of the population in an accurate way. In other words, a data set or sample is representative if all the elements in a population have the same chance to be part of the sample on which data was collected.</p>
 <p>Does the data represent the population to which the model will be applied?</p>
 <ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Yes. If selected, provide evidence below the data is representative and move to <a href="#3413-data-bias-approval">step 3.4.13</a>.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Yes. If selected, provide evidence that the data is representative, and move to <a href="#3413-data-bias-approval">step 3.4.13</a>.</li>
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->No. If selected, continue to next step.</li>
 </ul>
 <p>If applicable, add any additional details:</p>
@@ -257,7 +257,7 @@ If so, document those strategies and implement them.</p>
 </blockquote>
 <p>What should be done about the nonexistent alternative strategies?</p>
 <ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->End the workflow. If selected, please depreciate the project and update <a href="/document-project">step 2.1.1</a>.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->End the workflow. If selected, depreciate the project and update <a href="/document-project">step 2.1.1</a>.</li>
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Modify or update data. If selected, return to <a href="#31-collect-and-prepare-analytical-base-table">step 3.1</a>.</li>
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Move forward with the data. If selected, continue to next step.</li>
 </ul>
@@ -275,10 +275,10 @@ If so, document those strategies and implement them.</p>
 </blockquote>
 <p>Move to <a href="#3413-data-bias-approval">step 3.4.13</a>.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="3412-use-representative-data">3.4.12 Use representative data<a href="#3412-use-representative-data" class="hash-link" aria-label="Direct link to 3.4.12 Use representative data" title="Direct link to 3.4.12 Use representative data">​</a></h3>
-<p><strong>Model developer or data engineer</strong>: Use identified representative data, if available, or employ alternative strategy documented in <a href="#349-alternative-strategies-exist">3.4.9</a>.</p>
+<p><strong>Model developer or data engineer</strong>: Use identified representative data, if available, or use the alternative strategy that was documented in <a href="#349-alternative-strategies-exist">step 3.4.9</a>.</p>
 <ul class="contains-task-list containsTaskList_mC6p">
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Completed</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Not Completed</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Not completed</li>
 </ul>
 <p>If applicable, add any additional details:</p>
 <blockquote>

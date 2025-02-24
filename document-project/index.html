@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.7.0">
 <title data-rh="true">2. Document project | SAS Trustworthy AI Life Cycle</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://miniature-bassoon-6kry92e.pages.github.io/document-project"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="2. Document project | SAS Trustworthy AI Life Cycle"><meta data-rh="true" name="description" content="The following documentation helps define the project in a centralized location."><meta data-rh="true" property="og:description" content="The following documentation helps define the project in a centralized location."><link data-rh="true" rel="icon" href="/images/sas.png"><link data-rh="true" rel="canonical" href="https://miniature-bassoon-6kry92e.pages.github.io/document-project"><link data-rh="true" rel="alternate" href="https://miniature-bassoon-6kry92e.pages.github.io/document-project" hreflang="en"><link data-rh="true" rel="alternate" href="https://miniature-bassoon-6kry92e.pages.github.io/document-project" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.ecef51d9.css">
-<script src="/assets/js/runtime~main.f0d70f03.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.3ab63dd4.js" defer="defer"></script>
 <script src="/assets/js/main.3ad46d1f.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -210,7 +210,7 @@ This could include how data is prepared to be passed to the AI system, how data 
 <br>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="24-data-engineer-prepares-documentation">2.4 Data engineer prepares documentation<a href="#24-data-engineer-prepares-documentation" class="hash-link" aria-label="Direct link to 2.4 Data engineer prepares documentation" title="Direct link to 2.4 Data engineer prepares documentation">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="241-document-bias-assessment-variables">2.4.1 Document bias assessment variables<a href="#241-document-bias-assessment-variables" class="hash-link" aria-label="Direct link to 2.4.1 Document bias assessment variables" title="Direct link to 2.4.1 Document bias assessment variables">​</a></h3>
-<p><strong>Data engineer</strong>: Document variables that will be used to identify or assess bias in the data or models. Bias assessment variables help identify unacceptable, systematic differences between subpopulations.</p>
+<p><strong>Data engineer</strong>: Document variables that will be used to identify or assess bias in the data or models. Bias assessment variables help identify unacceptable, and systematic differences between subpopulations.</p>
 <blockquote>
 <br>
 <br>
@@ -300,10 +300,25 @@ Consider the following questions when developing the testing strategy.
 Note that answers to the questions do not need to be explicitly documented in the testing strategy.
 Rather, the questions can guide the development of the strategy itself, which should be documented in this step.</p>
 <ol>
-<li>Are there systemic differences in representativeness, missing data, input data distributions, or output data distributions between data used to train the model, data used to test the model, and data for the population or setting into which the AI system will be deployed?</li>
-<li>Should the model be tested in out of distribution samples?</li>
-<li>How does the model behave when encountering values not included in the training data?</li>
-<li>Are training and testing samples independent? What method was used to create the training and testing data sets?</li>
+<li>
+<p>Are there systemic differences between the data that you use to train the model, the data that you use to test the model, and the data about the population or setting into which the AI system will be deployed?</p>
+<p>Such differences could be related to any of the following:</p>
+<ul>
+<li>representativeness</li>
+<li>missing data</li>
+<li>input data distributions</li>
+<li>output data distributions</li>
+</ul>
+</li>
+<li>
+<p>Should the model be tested in out-of-distribution samples?</p>
+</li>
+<li>
+<p>How does the model behave when encountering values not included in the training data?</p>
+</li>
+<li>
+<p>Are training and testing samples independent? What method was used to create the training and testing data sets?</p>
+</li>
 </ol>
 <blockquote>
 <br>
@@ -353,7 +368,7 @@ Legally defined protected classes can vary by country or region.</p>
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Yes</li>
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->No</li>
 </ul>
-<p>If the answer is no, please list what is missing and re-assign <a href="#25-model-developer-or-data-engineer-prepares-documentation">step 2.5</a> to the model developer and/or data engineer for completion.</p>
+<p>If the answer is no, please list what is missing and re-assign <a href="#25-model-developer-or-data-engineer-prepares-documentation">step 2.5</a> to the model developer or data engineer for completion.</p>
 <blockquote>
 <br>
 <br>

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.7.0">
 <title data-rh="true">4. Train and assess model | SAS Trustworthy AI Life Cycle</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://miniature-bassoon-6kry92e.pages.github.io/train-model"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="4. Train and assess model | SAS Trustworthy AI Life Cycle"><meta data-rh="true" name="description" content="Train and assess a set of models to help find the best model for production."><meta data-rh="true" property="og:description" content="Train and assess a set of models to help find the best model for production."><link data-rh="true" rel="icon" href="/images/sas.png"><link data-rh="true" rel="canonical" href="https://miniature-bassoon-6kry92e.pages.github.io/train-model"><link data-rh="true" rel="alternate" href="https://miniature-bassoon-6kry92e.pages.github.io/train-model" hreflang="en"><link data-rh="true" rel="alternate" href="https://miniature-bassoon-6kry92e.pages.github.io/train-model" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.ecef51d9.css">
-<script src="/assets/js/runtime~main.f0d70f03.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.3ab63dd4.js" defer="defer"></script>
 <script src="/assets/js/main.3ad46d1f.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -55,8 +55,11 @@
 <br>
 </blockquote>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="432-compare-and-document-subgroup-model-performance">4.3.2 Compare and document subgroup model performance<a href="#432-compare-and-document-subgroup-model-performance" class="hash-link" aria-label="Direct link to 4.3.2 Compare and document subgroup model performance" title="Direct link to 4.3.2 Compare and document subgroup model performance">​</a></h3>
-<p><strong>Model developer</strong>: Calculate and compare model performance values and additional fairness metrics for each protected class or subgroup. Subgroups are often protected classes, or groups of people who are legally protected from discrimination based on a shared characteristic, like disability, sexual orientation, or race. However, subgroups could be important groups within the data based on the model use case, even though they are not legally defined as protected classes.
-To calculate model performance values, use model performance metrics defined by your organization in the testing strategy outlined in <a href="/document-project">step 2.1.6</a>. Fairness metrics might include equal opportunity, demographic parity, predictive parity, equal accuracy, or equalized odds.</p>
+<p><strong>Model developer</strong>: Calculate and compare model performance values and additional fairness metrics for each protected class or subgroup.
+Subgroups are often protected classes, or groups of people that are legally protected from discrimination based on a shared characteristic, such as a disability, sexual orientation, or race.
+However, subgroups could also be important groups within the data based on the model use case, even though they are not legally defined as protected classes.
+To calculate model performance values, use model performance metrics defined by your organization in the testing strategy outlined in <a href="/document-project">step 2.1.6</a>.
+Fairness metrics might include equal opportunity, demographic parity, predictive parity, equal accuracy, or equalized odds.</p>
 <p>Document or save results.</p>
 <blockquote>
 <br>
@@ -89,12 +92,12 @@ To calculate model performance values, use model performance metrics defined by 
 </ul>
 <p>If no, which areas need additional review?</p>
 <ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Retrain models with new data. If selected, please return to <a href="/prepare-and-assess-data">step 3</a>.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Retrain models with new data. If selected, return to <a href="/prepare-and-assess-data">step 3</a>.</li>
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Fine-tune the models with existing data. If selected, return to <a href="/train-model">step 4</a>.</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Set a new champion model. If selected, please return to <a href="/test-model">step 5</a>.</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Update the project documentation. If selected, please return to <a href="/document-project">step 2</a>.</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> End the workflow. If selected, please depreciate the project and update <a href="/document-project">step 2.1.1</a>.</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Move forward with the model. If selected, please provide additional details or justification and continue to the next step.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Set a new champion model. If selected, return to <a href="/test-model">step 5</a>.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Update the project documentation. If selected, return to <a href="/document-project">step 2</a>.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> End the workflow. If selected, depreciate the project and update <a href="/document-project">step 2.1.1</a>.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Move forward with the model. If selected, provide additional details or a justification, and then continue to the next step.</li>
 </ul>
 <blockquote>
 <br>
@@ -149,12 +152,12 @@ SAS Viya includes explainability tools such as Partial Dependence (PD) plots, In
 </ul>
 <p>If no, which areas need additional review?</p>
 <ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Retrain models with new data. If selected, please return to <a href="/prepare-and-assess-data">step 3</a>.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Retrain models with new data. If selected, return to <a href="/prepare-and-assess-data">step 3</a>.</li>
 <li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Fine-tune the models with existing data. If selected, return to <a href="/train-model">step 4</a>.</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Set a new champion model. If selected, please return to <a href="/test-model">step 5</a>.</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Update the project documentation. If selected, please return to <a href="/document-project">step 2</a>.</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> End the workflow. If selected, please depreciate the project and update <a href="/document-project">step 2.1.1</a>.</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Move forward with the model. If selected, please provide additional details or justification and continue to the next step.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Set a new champion model. If selected, return to <a href="/test-model">step 5</a>.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Update the project documentation. If selected, return to <a href="/document-project">step 2</a>.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> End the workflow. If selected, depreciate the project and update <a href="/document-project">step 2.1.1</a>.</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- --> Move forward with the model. If selected, provide additional details or a justification, and then continue to the next step.</li>
 </ul>
 <blockquote>
 <br>
