@@ -305,14 +305,15 @@ Note that answers to the questions do not need to be explicitly documented in th
 Rather, the questions can guide the development of the strategy itself, which should be documented in this step.
 
 1. Are there systemic differences between the data that you use to train the model, the data that you use to test the model, and the data about the population or setting into which the AI system will be deployed? Such differences could be related to any of the following:
+  
   - representativeness
   - missing data
   - input data distributions
   - output data distributions
   
-1. Should the model be tested in out of distribution samples?
-1. How does the model behave when encountering values not included in the training data? 
-1. Are training and testing samples independent? What method was used to create the training and testing data sets?
+2. Should the model be tested in out of distribution samples?
+3. How does the model behave when encountering values not included in the training data? 
+4. Are training and testing samples independent? What method was used to create the training and testing data sets?
 
 > <br></br>
 > <br></br>
