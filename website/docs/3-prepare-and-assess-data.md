@@ -208,7 +208,7 @@ Representativeness indicates whether the individuals present in the data mirror 
 
 Does the data represent the population to which the model will be applied?
 
-* [ ] Yes. If selected, provide evidence that the data are representative, and move to [step 3.4.13](#3413-data-bias-approval). 
+* [ ] Yes. If selected, provide evidence that the data is representative, and move to [step 3.4.13](#3413-data-bias-approval). 
 * [ ] No. If selected, continue to next step. 
 
 If applicable, add any additional details:
