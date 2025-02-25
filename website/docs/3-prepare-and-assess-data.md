@@ -140,7 +140,7 @@ Consider how data quality issues can result in unwanted biases. For example, do 
 > <br></br>
 
 ### 3.4.2 Are protected classes or proxy variables included?
-**Model developer or data engineer**: Indicate whether the data include information relating to protected classes or proxy variables for protected classes.
+**Model developer or data engineer**: Indicate whether the data includes information relating to protected classes or proxy variables for protected classes.
 Protected classes are groups of people who are legally protected from discrimination based on a shared characteristic, like disability, sexual orientation, or race.
 Proxy variables are not themselves protected classes but are statistically related to protected class variables. For example, a ZIP code might reveal information about an individual's race or age due to a high concentration of residents from that group.
 
