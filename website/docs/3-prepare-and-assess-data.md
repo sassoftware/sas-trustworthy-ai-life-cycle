@@ -22,7 +22,7 @@ If applicable, add any additional details:
 > <br></br> 
 > <br></br> 
 
-## 3.2 Individuals affected?
+## 3.2 Are individuals affected?
 **Model owner**: Indicate whether individuals are represented in the data or affected by the use case.
 
 Are individuals represented in the data or affected by the use case?
@@ -45,7 +45,7 @@ If yes, please provide additional information.
 
 ## 3.3 Assess data privacy
 
-### 3.3.1 Data contains Personally Identifiable Information (PII)?
+### 3.3.1 Does data contain Personally Identifiable Information (PII)?
 **Data engineer**: Does the data contain Personally Identifiable Information (PII)?
 PII is any information connected to a specific individual that could be used to uncover that individual's identity. Examples include but are not limited to full name, Social Security number, email address, and phone number.
 
@@ -65,7 +65,7 @@ If yes, please provide additional information.
 > <br></br>
 > <br></br>
 
-### 3.3.2 PII required?
+### 3.3.2 Is PII required?
 **Model developer**: Is the PII required due to the model use case or performance?
 
 Does this use case require that Personally Identifiable Information (PII) be included in the data?
@@ -138,7 +138,7 @@ Consider how data quality issues can result in unwanted biases. For example, do 
 > <br></br>
 > <br></br>
 
-### 3.4.2 Protected classes or proxy variables?
+### 3.4.2 Are protected classes or proxy variables included?
 **Model developer or data engineer**: Indicate whether the data includes information relating to protected classes or proxy variables for protected classes.
 Protected classes are groups of people who are legally protected from discrimination based on a shared characteristic, like disability, sexual orientation, or race.
 Proxy variables are not themselves protected classes but are statistically related to protected class variables. For example, a ZIP code might reveal information about an individual's race or age due to a high concentration of residents from that group.
@@ -149,14 +149,15 @@ Does the data include information relating to protected classes or proxy variabl
 * [ ] No. If selected, move to [step 3.4.7](#347-data-representative-of-population). 
 
 ### 3.4.3 Are variables inputs to model?
-**Model developer**: Indicate whether the model variable includes information about protected classes or proxy variables for protected classes. If so, document the protected class or proxy variables that are to be included in the model.
+**Model developer**: Indicate whether the model inputs include variables that contain information about protected classes or proxy variables for protected classes. If so, document the protected class or proxy variables that are to be included in the model.
 
-Does the model variables include information relating to protected classes or proxy variables for protected classes?
+
+Do the model variables include information relating to protected classes or proxy variables for protected classes?
 
 * [ ] Yes. If selected, continue to the next step. 
 * [ ] No. If selected, move to [step 3.4.7](#347-data-representative-of-population).  
 
-### 3.4.4 Protected classes or proxy variables required?
+### 3.4.4 Are protected classes or proxy variables required?
 **Model developer**: Are protected classes or proxy variables included in the model required, given the use case or model performance?
 
 * [ ] Yes. If selected, document why these variables are required and continue to next step.
@@ -200,7 +201,7 @@ If applicable, add any additional details:
 > <br></br>
 > <br></br>
 
-### 3.4.7 Data representative of population
+### 3.4.7 Is data representative of population?
 **Model developer or data engineer**: Indicate whether the data represents the population to which the model will be applied.
 Representativeness indicates whether the individuals present in the data mirror the intended population and reflect all essential properties of the population in an accurate way. In other words, a data set or sample is representative if all the elements in a population have the same chance to be part of the sample on which data was collected.
 
@@ -219,7 +220,7 @@ If applicable, add any additional details:
 > <br></br>
 > <br></br>
 
-### 3.4.8 Representative data available?
+### 3.4.8 Is representative data available?
 **Model developer or data engineer**: If there is evidence that the data used to train the model is not representative, indicate whether representative data is available.
 
 Is representative data available?
@@ -227,7 +228,7 @@ Is representative data available?
 * [ ] Yes. If selected, move to [step 3.4.12](#3412-use-representative-data). 
 * [ ] No. If selected, continue to next step. 
 
-### 3.4.9 Alternative strategies exist?
+### 3.4.9 Do alternative strategies exist?
 **Model developer or data engineer**: If representative data is unavailable, do other strategies for handling the nonrepresentative data exist?
 If so, document those strategies and implement them.
 
