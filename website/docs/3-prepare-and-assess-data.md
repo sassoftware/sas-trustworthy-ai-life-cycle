@@ -50,7 +50,7 @@ If yes, please provide additional information.
 PII is any information connected to a specific individual that could be used to uncover that individual's identity.
 Examples include but are not limited to full name, Social Security number, email address, and phone number.
 
-Do the data contain Personally Identifiable Information (PII)?
+Does the data contain Personally Identifiable Information (PII)?
 
 * [ ] Yes. If selected, continue to next step. 
 * [ ] No. If selected, move to [step 3.3.5](#335-data-privacy-risk-approval).
@@ -230,7 +230,7 @@ Is representative data available?
 * [ ] No. If selected, continue to next step. 
 
 ### 3.4.9 Do alternative strategies exist?
-**Model developer or data engineer**: If representative data are unavailable, do other strategies for handling the nonrepresentative data exist?
+**Model developer or data engineer**: If representative data is unavailable, do other strategies for handling the nonrepresentative data exist?
 If so, document those strategies and implement them.
 
 Do alternative strategies exist?
@@ -311,7 +311,7 @@ If no, please justify your response and reassign step 3 for completion.
 > <br></br>
 
 ## 3.5 Approve data
-**Model owner**: Is the quality of the data acceptable? Have the data been appropriately cleaned? Does a review suggest data should be approved for use?
+**Model owner**: Is the quality of the data acceptable? Has the data been appropriately cleaned? Does a review suggest data should be approved for use?
 
 * [ ] Yes
 * [ ] No
