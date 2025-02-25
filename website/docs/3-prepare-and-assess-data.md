@@ -148,7 +148,7 @@ Does the data include information relating to protected classes or proxy variabl
 * [ ] Yes. If selected, continue to the next step. 
 * [ ] No. If selected, move to [step 3.4.7](#347-data-representative-of-population). 
 
-### 3.4.3 Are variables inputs to model?
+### 3.4.3 Are variables included as inputs for the model?
 **Model developer**: Indicate whether the model inputs include variables that contain information about protected classes or proxy variables for protected classes. If so, document the protected class or proxy variables that are to be included in the model.
 
 
@@ -201,7 +201,7 @@ If applicable, add any additional details:
 > <br></br>
 > <br></br>
 
-### 3.4.7 Is data representative of population?
+### 3.4.7 Is data representative of the population?
 **Model developer or data engineer**: Indicate whether the data represents the population to which the model will be applied.
 Representativeness indicates whether the individuals present in the data mirror the intended population and reflect all essential properties of the population in an accurate way. In other words, a data set or sample is representative if all the elements in a population have the same chance to be part of the sample on which data was collected.
 
@@ -264,7 +264,7 @@ What should be done about the nonexistent alternative strategies?
 * [ ] Modify or update data. If selected, return to [step 3.1](#31-collect-and-prepare-analytical-base-table).
 * [ ] Move forward with the data. If selected, continue to next step. 
 
-### 3.4.11 Justify moving forward
+### 3.4.11 Provide justification for moving forward
 **Model owner**: If you have decided to move forward with using the data even though issues were identified, provide justification for moving forward with the data. 
 
 > <br></br>

@@ -99,7 +99,7 @@ If no, which areas need additional review?
 > <br></br> 
 > <br></br>
 
-## 5.3 Is model approved for production?
+## 5.3 Is the model approved for production?
 **Model owner**: Is the model approved for production?
 
 * [ ] Yes
