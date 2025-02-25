@@ -46,7 +46,7 @@ If yes, please provide additional information.
 ## 3.3 Assess data privacy
 
 ### 3.3.1 Does data contain Personally Identifiable Information (PII)?
-**Data engineer**: Do the data contain Personally Identifiable Information (PII)?
+**Data engineer**: Does the data contain Personally Identifiable Information (PII)?
 PII is any information connected to a specific individual that could be used to uncover that individual's identity.
 Examples include but are not limited to full name, Social Security number, email address, and phone number.
 
@@ -144,7 +144,7 @@ Consider how data quality issues can result in unwanted biases. For example, do 
 Protected classes are groups of people who are legally protected from discrimination based on a shared characteristic, like disability, sexual orientation, or race.
 Proxy variables are not themselves protected classes but are statistically related to protected class variables. For example, a ZIP code might reveal information about an individual's race or age due to a high concentration of residents from that group.
 
-Do the data include information relating to protected classes or proxy variables for protected classes?
+Does the data include information relating to protected classes or proxy variables for protected classes?
 
 * [ ] Yes. If selected, continue to the next step. 
 * [ ] No. If selected, move to [step 3.4.7](#347-data-representative-of-population). 
@@ -222,7 +222,7 @@ If applicable, add any additional details:
 > <br></br>
 
 ### 3.4.8 Is representative data available?
-**Model developer or data engineer**: If there is evidence that the data used to train the model are not representative, indicate whether representative data are available.
+**Model developer or data engineer**: If there is evidence that the data used to train the model is not representative, indicate whether representative data are available.
 
 Is representative data available?
 
