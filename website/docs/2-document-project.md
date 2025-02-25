@@ -7,7 +7,7 @@ The following documentation helps define the project in a centralized location.
 
 ## 2.1 Model owner prepares documentation
 
-### 2.1.1 Document current state of the project
+### 2.1.1 Document the current state of the project
 **Model owner**: Document the current state of the project. 
 
 * [ ] Not started
@@ -108,7 +108,7 @@ If the answer is no, please list what is missing and re-assign [step 2.1](#21-mo
 > <br></br>
 > <br></br>
 > <br></br>
-<br></br>
+> <br></br>
 
 ## 2.2 Model risk owner prepares documentation
 
@@ -159,7 +159,7 @@ If the answer is no, please list what is missing and re-assign [step 2.2](#22-mo
 > <br></br>
 > <br></br>
 > <br></br>
-<br></br>
+> <br></br>
 
 ## 2.3 Model engineer prepares documentation
 
@@ -206,7 +206,7 @@ If the answer is no, please list what is missing and re-assign [step 2.3](#23-mo
 > <br></br>
 > <br></br>
 > <br></br>
-<br></br>
+> <br></br>
 
 ## 2.4 Data engineer prepares documentation
 

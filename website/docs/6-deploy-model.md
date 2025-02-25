@@ -46,6 +46,7 @@ If applicable, add any additional details and reassign to resolve issues:
 ### 6.1.3 Incorporate model into existing processes
 
 **Model engineer**: Incorporate the model into your organization's existing processes.
+
 * [ ] Completed
 * [ ] Not completed
 
