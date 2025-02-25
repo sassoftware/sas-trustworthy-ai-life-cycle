@@ -201,7 +201,7 @@ If applicable, add any additional details:
 > <br></br>
 > <br></br>
 
-### 3.4.7 Are data representative of the population?
+### 3.4.7 Is data representative of the population?
 
 **Model developer or data engineer**: Indicate whether the data represents the population to which the model will be applied.
 Representativeness indicates whether the individuals present in the data mirror the intended population and reflect all essential properties of the population in an accurate way. In other words, a data set or sample is representative if all the elements in a population have the same chance to be part of the sample on which data was collected.
