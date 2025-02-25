@@ -50,7 +50,7 @@ If yes, please provide additional information.
 PII is any information connected to a specific individual that could be used to uncover that individual's identity.
 Examples include but are not limited to full name, Social Security number, email address, and phone number.
 
-Does the data contain Personally Identifiable Information (PII)?
+Do the data contain Personally Identifiable Information (PII)?
 
 * [ ] Yes. If selected, continue to next step. 
 * [ ] No. If selected, move to [step 3.3.5](#335-data-privacy-risk-approval).
