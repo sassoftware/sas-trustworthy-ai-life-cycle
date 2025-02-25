@@ -74,7 +74,7 @@ If applicable, add any additional details:
 > <br></br> 
 > <br></br> 
 
-### 5.2.4 Did the model the pass tests?
+### 5.2.4 Did the model pass the tests?
 **Model developer**: Did the model pass the tests outlined in the testing strategy?
 
 * [ ] Yes
