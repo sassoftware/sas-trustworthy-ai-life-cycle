@@ -30,7 +30,7 @@ Train and assess a set of models to help find the best model for production.
 
 ## 4.3 Assess model bias
 
-### 4.3.1 Model needs bias evaluation?
+### 4.3.1 Does model need bias evaluation?
 **Model developer**: Does the model require bias evaluation, based on the implications for the use of the AI system, among other factors? For example, the AI system needs bias evaluation if it could perform differently under varying conditions.
 
 * [ ] Yes. If selected, continue to the next step.
