@@ -25,7 +25,7 @@ If applicable, add any additional details:
 > <br></br> 
 > <br></br> 
 
-### 6.1.2  Deployment validation test passed?
+### 6.1.2  Did model pass deployment validation test?
 
 **Model engineer**: Test that the model deployment executes as expected using a sample data payload. 
 Did the model deployment pass the deployment validation test?
