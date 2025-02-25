@@ -11,12 +11,12 @@ const config: Config = {
   url: "https://miniature-bassoon-6kry92e.pages.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/sas-trustworthy-ai-life-cycle/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "sas-institute-rnd-internal", // Usually your GitHub org/user name.
-  projectName: "tmp-trustworthy-ai-life-cycle", // Usually your repo name.
+  organizationName: "sassoftware", // Usually your GitHub org/user name.
+  projectName: "sas-trustworthy-ai-life-cycle", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -37,7 +37,7 @@ const config: Config = {
           routeBasePath: "/",
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/sas-institute-rnd-internal/tmp-trustworthy-ai-life-cycle//blob/main/website",
+            "https://github.com/sassoftware/sas-trustworthy-ai-life-cycle/tree/main/website",
         },
         blog: false,
         theme: {
@@ -61,7 +61,7 @@ const config: Config = {
       },
       items: [
         {
-          href: "https://github.com/sas-institute-rnd-internal/tmp-trustworthy-ai-life-cycle/",
+          href: "https://github.com/sassoftware/sas-trustworthy-ai-life-cycle/",
           className: "header-github-link",
           title: "GitHub repository",
           position: "right",
@@ -76,7 +76,7 @@ const config: Config = {
           items: [
             {
               label: "GitHub Repository",
-              href: "https://github.com/sas-institute-rnd-internal/tmp-trustworthy-ai-life-cycle",
+              href: "https://github.com/sassoftware/sas-trustworthy-ai-life-cycle",
             },
           ],
         },
