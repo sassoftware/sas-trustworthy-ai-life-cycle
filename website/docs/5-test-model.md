@@ -74,7 +74,7 @@ If applicable, add any additional details:
 > <br></br> 
 > <br></br> 
 
-### 5.2.4 Tests passed?
+### 5.2.4 Did the model pass the tests?
 **Model developer**: Did the model pass the tests outlined in the testing strategy?
 
 * [ ] Yes
@@ -99,7 +99,7 @@ If no, which areas need additional review?
 > <br></br> 
 > <br></br>
 
-## 5.3 Model approved for production?
+## 5.3 Is the model approved for production?
 **Model owner**: Is the model approved for production?
 
 * [ ] Yes

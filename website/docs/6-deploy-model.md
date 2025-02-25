@@ -25,7 +25,7 @@ If applicable, add any additional details:
 > <br></br> 
 > <br></br> 
 
-### 6.1.2  Deployment validation test passed?
+### 6.1.2 Did the model pass the deployment validation test?
 
 **Model engineer**: Test that the model deployment executes as expected using a sample data payload. 
 Did the model deployment pass the deployment validation test?
@@ -46,6 +46,7 @@ If applicable, add any additional details and reassign to resolve issues:
 ### 6.1.3 Incorporate model into existing processes
 
 **Model engineer**: Incorporate the model into your organization's existing processes.
+
 * [ ] Completed
 * [ ] Not completed
 
