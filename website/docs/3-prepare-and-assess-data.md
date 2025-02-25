@@ -222,7 +222,7 @@ If applicable, add any additional details:
 > <br></br>
 
 ### 3.4.8 Is representative data available?
-**Model developer or data engineer**: If there is evidence that the data used to train the model is not representative, indicate whether representative data are available.
+**Model developer or data engineer**: If there is evidence that the data used to train the model is not representative, indicate whether representative data is available.
 
 Is representative data available?
 
