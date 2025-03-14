@@ -147,7 +147,7 @@ Proxy variables are not themselves protected classes but are statistically relat
 Does the data include information relating to protected classes or proxy variables for protected classes?
 
 * [ ] Yes. If selected, continue to the next step. 
-* [ ] No. If selected, move to [step 3.4.7](#347-data-representative-of-population). 
+* [ ] No. If selected, move to [step 3.4.7](#347-is-data-representative-of-the-population). 
 
 ### 3.4.3 Are variables included as inputs for the model?
 **Model developer**: Indicate whether the model inputs include variables that contain information about protected classes or proxy variables for protected classes. If so, document the protected class or proxy variables that are to be included in the model.
@@ -155,7 +155,7 @@ Does the data include information relating to protected classes or proxy variabl
 Do the model variables include information relating to protected classes or proxy variables for protected classes?
 
 * [ ] Yes. If selected, continue to the next step. 
-* [ ] No. If selected, move to [step 3.4.7](#347-data-representative-of-population).  
+* [ ] No. If selected, move to [step 3.4.7](#347-is-data-representative-of-the-population).  
 
 ### 3.4.4 Are protected classes or proxy variables required?
 **Model developer**: Are protected classes or proxy variables included in the model required, given the use case or model performance?
